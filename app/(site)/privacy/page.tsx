@@ -13,11 +13,11 @@ const PrivacyPage = () => {
             Cookies Policy
           </h1>
           <p className="text-[14px] md:text-[16px] font-medium text-neutral-900 text-center">
-            This Cookies Policy explains how Zitranet ("we," "us," or "our")
-            uses cookies and similar tracking technologies on our website. By
-            using our website, you agree to the use of cookies as outlined in
-            this policy. If you do not agree with our use of cookies, you should
-            adjust your browser settings or refrain from using our website.
+            This Cookies Policy explains how Zitranet uses cookies and similar
+            tracking technologies on our website. By using our website, you
+            agree to the use of cookies as outlined in this policy. If you do
+            not agree with our use of cookies, you should adjust your browser
+            settings or refrain from using our website.
           </p>
         </div>
         <div className=" w-full flex flex-col gap-5">
