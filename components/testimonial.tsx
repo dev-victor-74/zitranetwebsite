@@ -6,6 +6,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { Card, CardContent } from "@/components/ui/card";
+
 import Image from "next/image";
 
 const Testimonial = () => {
@@ -24,46 +26,44 @@ const Testimonial = () => {
 
   return (
     <div className="w-full flex items-center justify-center flex-col gap-2 mt-8 md:mt-20">
-      <h3 className="text-center text-lg md:text-3xl font-bold md:font-extrabold text-zinc-800 ">
+      <h3 className="text-center text-lg md:text-3x font-extrabold text-zinc-800 ">
         Words from our clients
       </h3>
-      <div className="flex items-center justify-center w-[90%] md:w-[60%] lg:w-[60%] max-w-[450px] px-2 md:px-0 md:max-w-[60%] lg:max-w-[50%] mx-auto">
+      <div className="flex items-center justify-center w-[95%] md:w-[60%] lg:w-[40%] max-w-[350px] px-2 md:px-0 md:max-w-[50%] lg:max-w-[50%] mx-auto">
         <div className="w-full items-center justify-center shadow-sm">
-          <Carousel className="w-[90%] md:w-full mx-auto items-center justify-center">
-            <CarouselContent className="w-full flex items-center p-2">
+          <Carousel className="w-full">
+            <CarouselContent>
               {testimonials.map((testimonial) => (
-                <CarouselItem
-                  className="rounded-sm px-1 flex flex-col items-center justify-center basis-[95%]"
-                  key={testimonial.name}
-                >
-                  <div className="w-full bg-white p-1 rounded-sm flex flex-col gap-1 items-center">
-                    <p className="text-[13px] md:text-[15px] font-medium text-zinc-800 text-center">
-                      {testimonial.desc}
-                    </p>
-                    <div className="w-full mt-5 flex items-center justify-center flex-col gap-2">
-                      <div className="w-[60px] overflow-hidden md:w-[80px] ring-1 ring-pink-300 h-[60px] md:h-[80px] rounded-full relative">
-                        <Image
-                          fill
-                          src={testimonial.image}
-                          alt={testimonial.name}
-                          className="rounded-full object-cover"
-                        />
-                      </div>
-                      <div className="flex flex-col gap-[2px]">
-                        <div className="text-sm font-semibold text-center text-neutral-950">
-                          {testimonial.name}
+                <CarouselItem key={testimonial.name}>
+                  <div className="p-1">
+                    <Card className="ring-1 ring-pink-200 shadow-sm">
+                      <CardContent className="flex items-center justify-center p-3 h-[370px] md:h-[300px]">
+                        <div className="w-full h-full flex flex-col justify-between gap-4">
+                          <div className="w-full text-sm font-normal text-center md:font-medium text-neutral-800">
+                            {testimonial.desc}
+                          </div>
+                          <div className="w-full flex flex-col items-center justify-center gap-1">
+                            <div className="w-[60px] h-[60px] ring-1 ring-pink-300 md:w-[80px] md:h-[80px] relative rounded-full">
+                              <Image
+                                fill
+                                src={testimonial.image}
+                                alt={testimonial.name}
+                                className=" rounded-full object-cover"
+                              />
+                            </div>
+                            <div className=" text-center text-[13px] font-semibold text-zinc-800">
+                              {testimonial.name}
+                            </div>
+                          </div>
                         </div>
-                        {/* <div className="text-[13px] font-medium text-center text-neutral-950">
-                          {testimonial.occupation}
-                        </div> */}
-                      </div>
-                    </div>
+                      </CardContent>
+                    </Card>
                   </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselNext className="w-14 h-14 md:w-12 md:h-12 ring-1 ring-[#f8cee1] shadow-md hover:ring-pink-300" />
-            <CarouselPrevious className="w-14 h-14 md:w-12 md:h-12 ring-1 ring-[#f8cee1] shadow-md hover:ring-pink-300" />
+            <CarouselNext className="w-14 h-14 md:w-12 md:h-12 ring-1 ring-[#e4b4ca] shadow-md hover:ring-pink-300" />
+            <CarouselPrevious className="w-14 h-14 md:w-12 md:h-12 ring-1 ring-[#e4b4ca] shadow-md hover:ring-pink-300" />
           </Carousel>
         </div>
       </div>

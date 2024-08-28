@@ -97,13 +97,18 @@ const ContactForm = () => {
                   />
                 </div>
               </div>
-              <textarea
-                placeholder="Your message"
-                className="w-full text-sm font-medium text-zinc-800 resize-none p-2 rounded-sm 
+              <div className="flex flex-col w-full gap-1">
+                <label className="text-sm font-semibold text-neutral-800">
+                  Subject
+                </label>
+                <textarea
+                  placeholder="Your message"
+                  className="w-full text-sm font-medium text-zinc-800 resize-none p-2 rounded-sm 
                         focus:outline-none focus:ring-1 focus:ring-pink-800 ring-1 ring-pink-300"
-                rows={8}
-                name="message"
-              />
+                  rows={8}
+                  name="message"
+                />
+              </div>
             </div>
             <Button
               type="submit"

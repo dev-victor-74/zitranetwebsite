@@ -14,7 +14,7 @@ const Aboutpage = () => {
           backgroundImage: "url(/aboutpagebg.jpg)",
           backgroundSize: "cover",
         }}
-        className="w-full h-[65vh] md:h-[65vh] px-3 md:px-0 lg:h-[70vh] bg-no-repeat overflow-hidden bg-slate-300 relative flex flex-col items-center justify-center"
+        className="w-full h-[75vh] md:h-[70vh] px-3 md:px-0 lg:h-[70vh] bg-no-repeat overflow-hidden bg-slate-300 relative flex flex-col items-center justify-center"
       >
         <div className="absolute top-0 w-full right-0 bg-black/85 p-6 md:p-0 flex items-center justify-center h-full">
           <div className="flex flex-col items-center justify-center gap-2 w-full md:w-[65%] lg:w-[55%] ">

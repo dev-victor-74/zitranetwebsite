@@ -91,7 +91,7 @@ const ContactSocial = () => {
         ))}
       </div>
       <div className="w-full flex flex-col gap-1 items-center justify-center mt-12">
-        <h3 className="text-sm font-semibold text-center text-neutral-700">
+        <h3 className="text-sm font-bold text-center text-neutral-800">
           Subscribe to our newsletter
         </h3>
         <div className="w-full md:w-[70%] lg:w-[40] flex items-center justify-center mx-auto bg-pink-700 max-w-[500px] p-[3px] py-5 px-2 md:p-4 lg:p-8 rounded-[2px]">

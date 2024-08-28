@@ -37,7 +37,7 @@ const ContactPage = () => {
       <div className="w-full px-3">
         <div className="w-full flex flex-col gap-3 mt-8">
           <div className="w-full flex flex-col items-center justify-center gap-3">
-            <h1 className="text-center text-lg md:text-3xl font-bold md:font-extrabold text-zinc-900 ">
+            <h1 className="text-center text-lg md:text-3xl font-extrabold text-zinc-800 ">
               Customer Support
             </h1>
             <p className="text-[15px] font-semibold text-zinc-800 text-center">

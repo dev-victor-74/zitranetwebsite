@@ -35,8 +35,11 @@ const WhyChooseUs = () => {
           </h2>
           <div className="w-full flex flex-col gap-4 mt-4">
             {whyUs.map((why: { label: string; desc: string }) => (
-              <div key={why.label} className="w-full flex items-center gap-3">
-                <div className="flex items-center justify-center">
+              <div
+                key={why.label}
+                className="w-full flex flex-col md:flex-row items-start gap-3"
+              >
+                <div className="flex items-center justify-center mt-0 md:mt-[2px]">
                   <CheckCircle2 color="#91073b" size={20} />
                 </div>
                 <div className="w-full flex flex-col gap-[2px]">

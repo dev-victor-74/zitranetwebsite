@@ -7,6 +7,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { Card, CardContent } from "@/components/ui/card";
 
 import { Code2Icon, ServerCogIcon, Bot } from "lucide-react";
 import { SiSalesforce } from "react-icons/si";
@@ -60,30 +61,36 @@ const Slider = () => {
   ];
 
   return (
-    <div className="w-[95%] md:w-[95%] lg:w-[90%] max-w-[320px] md:max-w-[95%] lg:max-w-[85%] mx-auto">
-      <Carousel className="w-full">
-        <CarouselContent className="flex items-center gap-2 p-2">
-          {services.map((service) => (
+    <div className="w-[90%]  md:w-[95%] lg:w-[90%] md:max-w-[95%] lg:max-w-[85%] mx-auto">
+      <Carousel className="w-[100%] mx-auto">
+        <CarouselContent className="-ml-1">
+          {services.map((service, index) => (
             <CarouselItem
-              className="basis-[90%] h-[320px] pb-2 md:pb-0 px-1 md:px-2 md:h-[340px] lg:h-[360px] xl:h-[320px] md:basis-1/2 ring-2 ring-[#f3d3e0] lg:basis-1/3 shadow-lg rounded-sm bg-white"
-              key={service.label}
+              key={index}
+              className="pl-1 md:basis-1/2 lg:basis-1/3"
             >
-              <div className="p-1 select-none cursor-pointer w-full flex flex-col gap-2 py-3">
-                <div className="flex w-max  p-1 shadow-md rounded-full bg-slate-50">
-                  {<service.Icon size={35} color="#91073b" />}
-                </div>
-                <div className="text-[16px] font-bold md:font-extrabold text-zinc-800 tracking-wider">
-                  {service.label}
-                </div>
-                <p className="text-[13px] md:text-[15px] font-medium text-neutral-800 text-start mdtext-center">
-                  {service.desc}
-                </p>
+              <div className="p-1">
+                <Card className="ring-1 ring-pink-200 rounded-sm">
+                  <CardContent className="flex h-[340px] md:h-[320px] p-2">
+                    <div className="w-full h-full flex flex-col gap-2">
+                      <div className="p-1 rounded-full h-10 md:h-12 md:w-12 w-10 flex items-center justify-center shadow-md">
+                        <service.Icon size={30} className="text-[#91073b]" />
+                      </div>
+                      <h2 className="text-sm font-extrabold text-neutral-800 tracking-wide">
+                        {service.label}
+                      </h2>
+                      <div className="text-sm font-normal md:font-medium">
+                        {service.desc}
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
               </div>
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="w-12 h-12 ring-1 ring-[#d3a0b6] transition shadow-lg hover:ring-pink-400" />
-        <CarouselNext className="w-12 h-12 ring-1 ring-[#d3a0b6] transition shadow-lg hover:ring-pink-400 " />
+        <CarouselPrevious className="w-14 h-14 md:w-12 md:h-12 ring-1 ring-[#e4b4ca] shadow-md hover:ring-pink-300" />
+        <CarouselNext className="w-14 h-14 md:w-12 md:h-12 ring-1 ring-[#e4b4ca] shadow-md hover:ring-pink-300" />
       </Carousel>
     </div>
   );
