@@ -29,7 +29,7 @@ const PrivacyPage = () => {
               Cookies are small text files that are placed on your computer,
               smartphone, or other device when you visit a website. They are
               widely used to enhance your browsing experience, remember your
-              preferences, and provide insights to improve our website's
+              preferences, and provide insights to improve our website&apos;s
               performance and functionality.
             </p>
           </div>
@@ -52,8 +52,8 @@ const PrivacyPage = () => {
               </p>
               <p className="text-[14px] md:text-[15px] font-medium text-neutral-900">
                 Functionality Cookies: These cookies allow our website to
-                remember choices you make (such as your username, language, or
-                region) and provide enhanced, more personalized features.
+                remember choices you make such as your username, language, or
+                region and provide enhanced, more personalized features.
               </p>
               <p className="text-[14px] md:text-[15px] font-medium text-neutral-900">
                 Targeting/Advertising Cookies: These cookies are used to deliver
