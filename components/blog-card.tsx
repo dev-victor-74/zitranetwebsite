@@ -11,7 +11,7 @@ const BlogCard = () => {
         <div className="w-full h-[200px] relative rounded-sm overflow-hidden z-[5]">
              <Image
                fill
-               src = "/ai.jpg"
+               src = "/home2.jpg"
                alt='blog'
              />
         </div>
@@ -27,7 +27,7 @@ const BlogCard = () => {
              <h3 className='text-sm font-bold text-zinc-800'>
 quickly become a leader
              </h3>
-             <p className='text-sm font-medium text-neutral-900 text-justify'>
+             <p className='text-sm font-medium text-neutral-900'>
              Founded with a vision to transform how businesses interact with their customers, Zitranet has
 quickly become a leader in AI-driven solutions. Our journey began with a simple yet powerful
 idea to leverage technology to create seamless, personalized customer service experiences.

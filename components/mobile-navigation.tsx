@@ -5,13 +5,11 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 import { Menu } from "lucide-react"
-import { useMemo } from "react"
 import { usePathname } from "next/navigation"
 import Link from "next/link"
-import { twMerge } from "tailwind-merge"
 import { DialogTitle } from "@radix-ui/react-dialog"
-import Footer from "./footer"
 import ContactInfo from "./contact-info"
+import { cn } from "@/lib/utils"
 
 
 const MobileNavigation = () => {
@@ -35,10 +33,7 @@ const MobileNavigation = () => {
           label: "Contact",
           path : "/contact"
       },
-      {
-          label: "Blog",
-          path : "/blog"
-      }
+   
      ];
 
   return (
@@ -54,7 +49,7 @@ const MobileNavigation = () => {
              {
                 routes.map((route:{label:string, path:string})=>(
                     <Link href={route.path} key={route.label}
-                     className={twMerge("text-sm font-semibold w-[90%] text-center px-4 py-2 rounded-full transition hover:text-[#91073b] text-zinc-800",pathname === route.path && "text-zinc-200 bg-pink-400")}
+                     className={cn("text-sm font-semibold w-[90%] text-center px-4 py-2 rounded-full transition hover:text-[#91073b] text-zinc-800",pathname === route.path && "text-zinc-200 bg-[#91073b]")}
                     >
                        <p className="text-inherit">
                           {route.label}

@@ -5,7 +5,7 @@ const BlogPage = () => {
     <main className="w-full">
          <div 
           id='contact'
-          className="w-full h-[40vh] md:h-[60vh] px-6 md:px-0 lg:h-[70vh] overflow-hidden bg-slate-300 relative flex flex-col items-center justify-center">
+          className="w-full h-[55vh] md:h-[60vh] px-6 md:px-0 lg:h-[70vh] overflow-hidden bg-slate-300 relative flex flex-col items-center justify-center">
            <div className="absolute top-0 w-full right-0 bg-black/65 p-6 md:p-0 flex items-center justify-center h-full">
              <div className="flex flex-col items-center justify-center gap-2 w-full md:w-[60%] lg:w-[50%] ">
                  <h3 className="text-lg md:text-xl font-bold text-center text-zinc-200">Featuring</h3>

@@ -44,9 +44,9 @@ const handleSubmit=async(event: any)=>{
   }
   return (
     <div
-     className='w-full bg-[#91073b] rounded-[2px] p-3 mt-8'
+     className='w-full bg-[#91073b] rounded-[2px] py-3 mt-8'
     >
-        <div className="w-full md:w-[90%] lg:w-[80%] px-6 mx-auto flex items-center justify-between gap-4">
+        <div className="w-full md:w-[90%] lg:w-[80%] px-2 mx-auto flex items-center justify-between gap-4">
              <div className="w-full bg-slate-400 h-[350px] ring-1 ring-pink-300 rounded-sm hidden md:flex relative items-center justify-center">
              <Image
                   fill

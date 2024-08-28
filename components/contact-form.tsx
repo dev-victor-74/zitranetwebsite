@@ -49,8 +49,8 @@ const ContactForm = () => {
               Ready to take your business to the next level with zitranet technology solutions
           </div>
       </div>
-      <div className="w-full flex flex-col gap-2 items-center justify-center mt-10">
-          <p className=" text-sm font-semibold text-neutral-800">Request for consultation</p>
+      <div className="w-full flex flex-col gap-2 items-center justify-center mt-3">
+          <p className=" text-[15px] font-semibold text-neutral-800">Request for consultation</p>
           <div className="w-full md:w-[70%] lg:w-[40] mx-auto bg-pink-100 max-w-[600px] p-[10px] md:p-4 lg:p-8 rounded-sm">
               <form ref={formRef}
                onSubmit={handleSubmit} className="w-full">

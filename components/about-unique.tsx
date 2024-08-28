@@ -21,9 +21,9 @@ const AboutUnique = (
   return (
 
     <div
-    className='w-full rounded-[2px] py-8 mt-5'
+    className='w-full rounded-[2px] py-8 mt-3'
    >
-       <div className={cn("w-full md:w-[90%] lg:w-[80%] px-6 mx-auto flex flex-col justify-between items-center",className)}>
+       <div className={cn("w-full md:w-[90%] lg:w-[80%] px-[10px] mx-auto flex flex-col justify-between items-center",className)}>
             <div className={cn("bg-slate-400 rounded-[2px] flex relative items-center justify-center", imageClass)}>
             <Image
                  fill
@@ -36,7 +36,7 @@ const AboutUnique = (
                 <h3 className='text-xl md:text-3xl font-extrabold text-zinc-800 text-center md:text-start ml-1'>
                    {label}
                 </h3>
-               <div className="text-[15px] md:text-[16px] font-medium text-start md:text-justify text-neutral-900 flex flex-col gap-2">
+               <div className="text-[13px] md:text-[16px] font-medium text-center md:text-justify text-neutral-900 flex flex-col gap-3">
                  {desc1? <p className=" text-inherit">
                     {desc1}
                  </p>: ""}
