@@ -29,11 +29,11 @@ const Testimonial = () => {
       </h3>
       <div className="flex items-center justify-center w-[90%] md:w-[60%] lg:w-[60%] max-w-[450px] px-2 md:px-0 md:max-w-[60%] lg:max-w-[50%] mx-auto">
         <div className="w-full items-center justify-center shadow-sm">
-          <Carousel className="w-full items-center justify-center">
-            <CarouselContent className="w-full flex items-center px-3 py-3">
+          <Carousel className="w-[90%] md:w-full mx-auto items-center justify-center">
+            <CarouselContent className="w-full flex items-center p-2">
               {testimonials.map((testimonial) => (
                 <CarouselItem
-                  className="rounded-sm px-1 flex flex-col items-center justify-center "
+                  className="rounded-sm px-1 flex flex-col items-center justify-center basis-[95%]"
                   key={testimonial.name}
                 >
                   <div className="w-full bg-white p-1 rounded-sm flex flex-col gap-1 items-center">
@@ -62,8 +62,8 @@ const Testimonial = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselNext className="w-12 h-12 ring-1 ring-[#f8cee1] shadow-md hover:ring-pink-300" />
-            <CarouselPrevious className="w-12 h-12 ring-1 ring-[#f8cee1] shadow-md hover:ring-pink-300" />
+            <CarouselNext className="w-14 h-14 md:w-12 md:h-12 ring-1 ring-[#f8cee1] shadow-md hover:ring-pink-300" />
+            <CarouselPrevious className="w-14 h-14 md:w-12 md:h-12 ring-1 ring-[#f8cee1] shadow-md hover:ring-pink-300" />
           </Carousel>
         </div>
       </div>

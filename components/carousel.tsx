@@ -62,10 +62,10 @@ const Slider = () => {
   return (
     <div className="w-[95%] md:w-[95%] lg:w-[90%] max-w-[320px] md:max-w-[95%] lg:max-w-[85%] mx-auto">
       <Carousel className="w-full">
-        <CarouselContent className="flex items-center gap-3 py-4">
+        <CarouselContent className="flex items-center gap-2 p-2">
           {services.map((service) => (
             <CarouselItem
-              className="basis-[85%] h-[320px] pb-2 md:pb-0 px-1 md:px-2 md:h-[340px] lg:h-[360px] xl:h-[320px] md:basis-1/2 ring-2 ring-[#f3d3e0] lg:basis-1/3 shadow-lg rounded-sm bg-white"
+              className="basis-[90%] h-[320px] pb-2 md:pb-0 px-1 md:px-2 md:h-[340px] lg:h-[360px] xl:h-[320px] md:basis-1/2 ring-2 ring-[#f3d3e0] lg:basis-1/3 shadow-lg rounded-sm bg-white"
               key={service.label}
             >
               <div className="p-1 select-none cursor-pointer w-full flex flex-col gap-2 py-3">
@@ -82,7 +82,7 @@ const Slider = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="w-12  h-12 ring-1 ring-[#d3a0b6] transition shadow-lg hover:ring-pink-400" />
+        <CarouselPrevious className="w-12 h-12 ring-1 ring-[#d3a0b6] transition shadow-lg hover:ring-pink-400" />
         <CarouselNext className="w-12 h-12 ring-1 ring-[#d3a0b6] transition shadow-lg hover:ring-pink-400 " />
       </Carousel>
     </div>

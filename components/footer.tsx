@@ -26,7 +26,7 @@ const Footer = () => {
     setLoading(true);
 
     const formData = new FormData(event.target);
-    formData.append("access_key", "e3c26f9d-cd7e-47bb-9d3c-785544d99658");
+    formData.append("access_key", "234f0c8c-3ab7-480d-a08a-6135505790fe");
     formData.append("subject", "NewsLetter");
     formData.append(
       "NewsLetter Alert",
