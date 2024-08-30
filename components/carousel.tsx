@@ -89,8 +89,8 @@ const Slider = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="w-12 h-12 ring-1 ring-[#e4b4ca] shadow-md hover:ring-pink-300 absolute top-1/2 -left-6 md:-left-10" />
-        <CarouselNext className="w-12 h-12 ring-1 ring-[#e4b4ca] shadow-md hover:ring-pink-300 absolute top-1/2 -right-6 md:-right-10" />
+        <CarouselPrevious className="h-10 w-10 md:w-12 md:h-12 ring-1 ring-[#e4b4ca] shadow-md hover:ring-pink-300 absolute top-1/2 -left-6 md:-left-10" />
+        <CarouselNext className=" h-10 w-10 md:w-12 md:h-12 ring-1 ring-[#e4b4ca] shadow-md hover:ring-pink-300 absolute top-1/2 -right-6 md:-right-10" />
       </Carousel>
     </div>
   );
