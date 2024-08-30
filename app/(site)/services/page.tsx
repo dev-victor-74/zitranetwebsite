@@ -18,7 +18,7 @@ const ServicesPage = () => {
       >
         <div className="absolute top-0 w-full right-0 bg-black/85 p-[10px] md:p-0 flex items-center justify-center h-full">
           <div className="flex flex-col items-center justify-center gap-2 w-full md:w-[65%] lg:w-[55%] ">
-            <h2 className="text-xl md:text-3xl tracking-wider font-bold md:font-extrabold text-zinc-200">
+            <h2 className="text-xl md:text-3xl tracking-wider font-extrabold text-zinc-200">
               Our Services
             </h2>
             <p className="text-[13px] md:text-sm font-medium text-zinc-300/90 text-center">
@@ -32,7 +32,7 @@ const ServicesPage = () => {
         </div>
       </div>
       <div className="w-[90%] mx-auto flex items-center flex-col gap-3 mt-8">
-        <h2 className="text-xl font-bold md:text-2xl md:font-extrabold text-zinc-800">
+        <h2 className="text-xl  md:text-3xl font-extrabold text-zinc-800">
           Services We Offer
         </h2>
         <Slider />

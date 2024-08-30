@@ -71,7 +71,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="w-full px-3 md:px-0 mt-16 py-10 bg-slate-100 flex flex-col gap-4">
+    <footer className="w-full px-[14px] md:px-0 mt-16 py-10 bg-slate-100 flex flex-col gap-4">
       <div className="w-full md:w-[85%] h-full mx-auto flex flex-col md:flex-row justify-between gap-8 md:gap-5">
         <div className="flex flex-col gap-2 flex-1">
           <Link href={"/"} className="flex items-center cursor-pointer">

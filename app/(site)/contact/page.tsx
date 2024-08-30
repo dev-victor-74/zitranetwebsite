@@ -20,7 +20,7 @@ const ContactPage = () => {
       >
         <div className="absolute top-0 w-full right-0 bg-black/85 p-[10px] md:p-0 flex items-center justify-center h-full">
           <div className="flex flex-col items-center justify-center gap-2 w-full md:w-[65%] lg:w-[55%] ">
-            <h2 className="text-xl md:text-3xl tracking-wider font-bold md:font-extrabold text-zinc-200">
+            <h2 className="text-xl md:text-3xl tracking-wider font-extrabold text-zinc-200">
               Contact Us
             </h2>
             <p className="text-[13px] md:text-sm font-medium text-zinc-300/90 text-center">

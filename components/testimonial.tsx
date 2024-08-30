@@ -29,17 +29,17 @@ const Testimonial = () => {
       <h3 className="text-center text-lg md:text-3x font-extrabold text-zinc-800 ">
         Words from our clients
       </h3>
-      <div className="flex items-center justify-center w-[95%] md:w-[60%] lg:w-[40%] max-w-[350px] px-2 md:px-0 md:max-w-[50%] lg:max-w-[50%] mx-auto">
+      <div className="flex items-center justify-center w-[100%] md:w-[60%] lg:w-[40%]  px-2 md:px-0 md:max-w-[50%] lg:max-w-[50%] mx-auto">
         <div className="w-full items-center justify-center shadow-sm">
           <Carousel className="w-full">
             <CarouselContent>
               {testimonials.map((testimonial) => (
                 <CarouselItem key={testimonial.name}>
                   <div className="p-1">
-                    <Card className="ring-1 ring-pink-200 shadow-sm">
-                      <CardContent className="flex items-center justify-center p-3 h-[370px] md:h-[300px]">
-                        <div className="w-full h-full flex flex-col justify-between gap-4">
-                          <div className="w-full text-sm font-normal text-center md:font-medium text-neutral-800">
+                    <Card className="ring-1 ring-pink-200/80">
+                      <CardContent className="flex items-center justify-center p-2 h-[380px] md:h-[370px] lg:h-[350px] ">
+                        <div className="w-full h-full flex flex-col items-center justify-center gap-8">
+                          <div className="w-full text-[12px] md:text-sm font-normal text-center md:font-medium text-neutral-800">
                             {testimonial.desc}
                           </div>
                           <div className="w-full flex flex-col items-center justify-center gap-1">
@@ -51,7 +51,7 @@ const Testimonial = () => {
                                 className=" rounded-full object-cover"
                               />
                             </div>
-                            <div className=" text-center text-[13px] font-semibold text-zinc-800">
+                            <div className=" text-center text-xs md:text-[13px] font-semibold text-zinc-800">
                               {testimonial.name}
                             </div>
                           </div>
@@ -62,8 +62,8 @@ const Testimonial = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselNext className="w-14 h-14 md:w-12 md:h-12 ring-1 ring-[#e4b4ca] shadow-md hover:ring-pink-300" />
-            <CarouselPrevious className="w-14 h-14 md:w-12 md:h-12 ring-1 ring-[#e4b4ca] shadow-md hover:ring-pink-300" />
+            <CarouselNext className="w-10 h-10 md:h-12 md:w-12 absolute top-1/2 -right-3 md:-right-10 ring-1 ring-[#e4b4ca] shadow-md hover:ring-pink-300" />
+            <CarouselPrevious className="w-10 h-10 md:h-12 md:w-12 ring-1 absolute top1/2 -left-3 md:-left-10  bg-white ring-[#e4b4ca] shadow-md hover:ring-pink-300" />
           </Carousel>
         </div>
       </div>

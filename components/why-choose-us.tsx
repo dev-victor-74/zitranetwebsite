@@ -33,11 +33,11 @@ const WhyChooseUs = () => {
           <h2 className="text-xl md:text-3xl font-extrabold text-zinc-800">
             Why Choose Us
           </h2>
-          <div className="w-full flex flex-col gap-4 mt-4">
+          <div className="w-full flex flex-col gap-[18px] mt-4 px-1">
             {whyUs.map((why: { label: string; desc: string }) => (
               <div
                 key={why.label}
-                className="w-full flex flex-col md:flex-row items-start gap-3"
+                className="w-full flex flex-col md:flex-row items-start gap-1 md:gap-3"
               >
                 <div className="flex items-center justify-center mt-0 md:mt-[2px]">
                   <CheckCircle2 color="#91073b" size={20} />

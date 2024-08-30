@@ -16,9 +16,9 @@ const Aboutpage = () => {
         }}
         className="w-full h-[75vh] md:h-[70vh] px-3 md:px-0 lg:h-[70vh] bg-no-repeat overflow-hidden bg-slate-300 relative flex flex-col items-center justify-center"
       >
-        <div className="absolute top-0 w-full right-0 bg-black/85 p-6 md:p-0 flex items-center justify-center h-full">
+        <div className="absolute top-0 w-full right-0 bg-black/80 p-6 md:p-0 flex items-center justify-center h-full">
           <div className="flex flex-col items-center justify-center gap-2 w-full md:w-[65%] lg:w-[55%] ">
-            <h2 className="text-xl md:text-3xl tracking-wider font-bold md:font-extrabold text-zinc-200">
+            <h2 className="text-xl md:text-3xl tracking-wider font-extrabold text-zinc-200">
               About Us
             </h2>
             <p className="text-[14px] md:text-[15px] font-medium text-zinc-300/90 text-center">
@@ -41,7 +41,7 @@ const Aboutpage = () => {
         image="/unq.jpg"
         label="Our Story"
         className="flex gap-8 flex-col-reverse md:flex-row-reverse"
-        imageClass=" h-[260px] sm:h-[300px] md:h-[400px] w-full md:w-[55%] lg:w-[60%] ring-2 ring-pink-200"
+        imageClass=" h-[280px] sm:h-[330px] md:h-[400px] w-full md:w-[55%] lg:w-[60%] ring-2 ring-pink-200"
         desc1="Founded with a vision to transform how businesses interact with their customers, Zitranet has
                 quickly become a leader in AI-driven solutions."
         desc2=" Our journey began with a simple yet powerful
@@ -73,7 +73,7 @@ const Aboutpage = () => {
       <AboutUnique
         image="/weareunique.png"
         label="We Are Unique"
-        imageClass="h-[260px] sm:h-[300px] md:h-[400px] w-full md:w-[55%] lg:w-[48%] ring-2 ring-pink-200"
+        imageClass="h-[280px] sm:h-[330px] md:h-[400px] w-full md:w-[55%] lg:w-[48%] ring-2 ring-pink-200"
         className="flex gap-8 flex-col-reverse md:flex-row"
         desc1="In a rapidly evolving digital landscape, staying stagnant is not an option. We are committed to
               continuous improvement, constantly updating our technology and refining our processes to
@@ -92,7 +92,7 @@ const Aboutpage = () => {
         label="Meet The Team"
         className="flex gap-8 flex-col-reverse md:flex-row-reverse"
         desc1="At Zitranet, our team is the heart and soul of our company. Comprised of dedicated professionals with diverse expertise and a shared passion for technology, we are committed to delivering exceptional service and innovative solutions to our clients"
-        imageClass="h-[260px] md:h-[400px] w-full sm:h-[300px] md:w-[60%] ring-2 ring-pink-200"
+        imageClass="h-[280px] md:h-[400px] w-full sm:h-[330px] md:w-[60%] ring-2 ring-pink-200"
       />
     </main>
   );
