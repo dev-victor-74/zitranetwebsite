@@ -11,12 +11,12 @@ const Hero = () => {
         backgroundImage: `url(${images[2]})`,
         backgroundSize: "cover",
       }}
-      className="w-full h-[60vh] md:h-[70vh] px-2 md:px-0 lg:h-[85vh] bg-no-repeat overflow-hidden bg-rose-300 relative"
+      className="w-full h-[65vh] md:h-[70vh] px-2 md:px-0 lg:h-[85vh] bg-no-repeat overflow-hidden bg-rose-300 relative"
     >
       <div className="absolute top-0 w-full right-0 bg-black/75 p-2 md:p-0 h-full flex items-center justify-start">
         <div className="w-full md:w-[95%] mx-auto">
-          <div className="flex flex-col items-center md:items-start px-1 w-full md:w-[65%] lg:w-[50%] md:ml-16 rounded-sm gap-3 md:gap-3 ">
-            <h1 className="text-xl font-bold tracking-wide md:text-3xl lg:text-4xl md:font-extrabold text-zinc-200 text-center md:text-start">
+          <div className="flex flex-col items-center md:items-start px-1 w-full md:w-[70%] lg:w-[50%] md:ml-16 rounded-sm gap-3 md:gap-3 ">
+            <h1 className="text-xl tracking-wide md:text-3xl lg:text-4xl font-extrabold text-zinc-200 text-center md:text-start">
               Creating Digital Products In The Shortest Time
             </h1>
             <p className="text-sm font-medium md:font-semibold text-neutral-300 text-center md:text-start tracking-wide">

@@ -5,9 +5,9 @@ import Image from "next/image";
 
 const KnowUs = () => {
   return (
-    <div className="w-full md:w-[90%] lg:w-[85%] mx-auto mt-10 md:mt-16">
+    <div className="w-full md:w-[90%] lg:w-[85%] mx-auto mt-6 md:mt-16">
       <div className="w-full flex flex-col-reverse md:flex-row items-center justify-between gap-7">
-        <div className="flex w-full md:w-[55%] ring-2 ring-pink-300 relative rounded-sm overflow-hidden h-[330px] md:h-[370px] bg-slate-500">
+        <div className="flex w-full md:w-[55%] ring-2 ring-pink-200 relative rounded-sm overflow-hidden h-[310px] md:h-[370px] bg-slate-500">
           <Image fill src="/teams2.png" alt="about" />
         </div>
         <div className="w-full flex flex-col items-center md:items-start gap-2 px-1">

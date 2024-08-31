@@ -66,7 +66,7 @@ const HomeContact = () => {
                 required
                 name="name"
                 placeholder="Your name"
-                className="w-full p-2 rounded-[2px] outline-none focus:outline-none focus:ring-1 focus:ring-pink-400 ring-1 py-3 ring-slate-200 bg-inherit text-sm font-semibold text-zinc-200"
+                className="w-full p-2 rounded-[2px] outline-none focus:outline-none focus:ring-1 focus:ring-pink-400 ring-1 py-3 ring-slate-200 bg-inherit text-sm font-semibold text-zinc-200 focus:bg-inherit"
               />
             </div>
             <div className="w-full flex flex-col gap-1">
@@ -75,7 +75,7 @@ const HomeContact = () => {
                 required
                 name="email"
                 placeholder="Your email"
-                className="w-full p-2 rounded-[2px] outline-none focus:outline-none focus:ring-1 focus:ring-pink-400 py-3 ring-1 text-sm font-semibold text-zinc-200 ring-slate-200 bg-inherit"
+                className="w-full p-2 rounded-[2px] outline-none focus:outline-none focus:ring-1 focus:ring-pink-400 py-3 ring-1 text-sm font-semibold text-zinc-200 ring-slate-200 bg-inherit focus:bg-inherit"
               />
             </div>
             <div className="w-full flex flex-col gap-1">
@@ -84,7 +84,7 @@ const HomeContact = () => {
                 required
                 placeholder="Subject"
                 name="subject"
-                className="w-full p-2 rounded-[2px] outline-none focus:outline-none focus:ring-1 focus:ring-pink-400 py-3 ring-1 ring-slate-200 bg-inherit text-sm font-semibold text-zinc-200"
+                className="w-full p-2 rounded-[2px] outline-none focus:outline-none focus:ring-1 focus:ring-pink-400 py-3 ring-1 ring-slate-200 bg-inherit text-sm font-semibold text-zinc-200 focus:bg-inherit"
               />
             </div>
             <div className="w-full flex flex-col">
@@ -93,7 +93,7 @@ const HomeContact = () => {
                 rows={6}
                 placeholder="Your message"
                 required
-                className="w-full p-2 rounded-[2px] outline-none focus:outline-none focus:ring-1 focus:ring-pink- ring-1 focus:ring-pink-400 resize-none ring-slate-200 bg-inherit text-sm font-medium text-zinc-200"
+                className="w-full p-2 rounded-[2px] outline-none focus:outline-none focus:ring-1 focus:ring-pink- ring-1 focus:ring-pink-400 resize-none ring-slate-200 bg-inherit focus:bg-inherit text-sm font-medium text-zinc-200"
               ></textarea>
             </div>
             <Button

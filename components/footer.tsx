@@ -95,7 +95,9 @@ const Footer = () => {
               <MdFacebook color="white" size={16} />
             </a>
             <a
-              href={""}
+              href={
+                "https://www.facebook.com/profile.php?id=61562499407000&mibextid=ZbWKwL"
+              }
               target="_blank"
               className="p-[6px] rounded- bg-[#91073b] rounded-full flex items-center justify-center"
             >

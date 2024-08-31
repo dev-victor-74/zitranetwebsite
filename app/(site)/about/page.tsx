@@ -41,7 +41,7 @@ const Aboutpage = () => {
         image="/unq.jpg"
         label="Our Story"
         className="flex gap-8 flex-col-reverse md:flex-row-reverse"
-        imageClass=" h-[280px] sm:h-[330px] md:h-[400px] w-full md:w-[55%] lg:w-[60%] ring-2 ring-pink-200"
+        imageClass=" h-[280px] sm:h-[330px] md:h-[380px] w-full md:w-[55%] lg:w-[60%] ring-2 ring-pink-200"
         desc1="Founded with a vision to transform how businesses interact with their customers, Zitranet has
                 quickly become a leader in AI-driven solutions."
         desc2=" Our journey began with a simple yet powerful

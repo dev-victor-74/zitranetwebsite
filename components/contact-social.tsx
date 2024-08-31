@@ -17,13 +17,13 @@ const ContactSocial = () => {
     {
       label: "facebook.com/zitranet.com",
       icon: <MdFacebook color="white" size={16} />,
-      href: "https://facebook.com/@zitranet.com",
+      href: "https://www.facebook.com/profile.php?id=61562499407000&mibextid=ZbWKwL",
     },
 
     {
       label: "linkedin.com/zitranet",
       icon: <Linkedin size={16} color="white" />,
-      href: "https://linkedin.com/@zitranet.com",
+      href: "https://www.facebook.com/profile.php?id=61562499407000&mibextid=ZbWKwL",
     },
   ];
 
@@ -73,7 +73,7 @@ const ContactSocial = () => {
           and promotions from zitranet
         </div>
       </div>
-      <div className="w-full md:w-[90%] lg:w-[80%] flex flex-col md:flex-row items-start md:items-center md:justify-center gap-3">
+      <div className="w-full md:w-[90%] lg:w-[80%] flex md:flex-row items-center justify-center gap-3">
         {socialHandles.map((con) => (
           <a
             href={con.href}
@@ -84,9 +84,9 @@ const ContactSocial = () => {
             <div className="flex items-center justify-center bg-rose-800 p-[6px] rounded-full">
               {con.icon}
             </div>
-            <span className="text-[15px] font-medium text-neutral-800">
+            {/* <span className="text-[15px] font-medium text-neutral-800">
               {con.label}
-            </span>
+            </span> */}
           </a>
         ))}
       </div>
