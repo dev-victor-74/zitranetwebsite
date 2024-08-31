@@ -42,7 +42,7 @@ const MobileNavigation = () => {
         <DialogTitle className="text-zinc-800 text-sm font-bold ml-5">
           {/* Zitranet */}
         </DialogTitle>
-        <div className="flex w-full flex-col items-center gap-4 mt-10 ">
+        <div className="flex w-full flex-col items-center gap-4 mt-6 ">
           {routes.map((route: { label: string; path: string }) => (
             <Link
               href={route.path}

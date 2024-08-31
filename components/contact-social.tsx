@@ -69,8 +69,8 @@ const ContactSocial = () => {
     <div className="w-full flex flex-col items-center justify-center px-2 mt-2 md:mt-8 gap-2">
       <div className="w-full md:w-[90%] lg:w-[80%] flex flex-col md:flex-row items-start md:items-center md:justify-center gap-2">
         <div className="text-[15px] font-semibold text-neutral-800 text-center">
-          Follow us on social to stay up-to-date on the latestt news, updates
-          and promotions from zitranet
+          Follow us on social media to stay up-to-date on the latest news,
+          updates and promotions from zitranet
         </div>
       </div>
       <div className="w-full md:w-[90%] lg:w-[80%] flex md:flex-row items-center justify-center gap-3">
