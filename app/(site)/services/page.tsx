@@ -59,8 +59,8 @@ const ServicesPage = () => {
               We offer:
             </p>
             <p className="text-[13px] md:text-[15px] font-medium text-neutral-900">
-              Digital Strategy Development: Craft a roadmap for your business's
-              digital transformation.
+              Digital Strategy Development: Craft a roadmap for your
+              business&apos;s digital transformation.
             </p>
             <p className=" text-[13px] md:text-[15px] font-medium text-neutral-900">
               Technology Integration: Seamlessly integrate new technologies into
