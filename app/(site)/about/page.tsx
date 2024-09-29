@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 
 import AboutUnique from "@/components/about-unique";
+import FooterReminder from "@/components/footer-reminder";
 
 export const metadata: Metadata = {
   title: "About us - zitranet",
@@ -94,6 +95,7 @@ const Aboutpage = () => {
         desc1="At Zitranet, our team is the heart and soul of our company. Comprised of dedicated professionals with diverse expertise and a shared passion for technology, we are committed to delivering exceptional service and innovative solutions to our clients"
         imageClass="h-[280px] md:h-[400px] w-full sm:h-[330px] md:w-[60%] ring-2 ring-pink-200"
       />
+      <FooterReminder />
     </main>
   );
 };

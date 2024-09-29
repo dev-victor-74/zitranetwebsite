@@ -24,13 +24,16 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <div className="w-full md:w-[90%] lg:w-[85%] mx-auto mt-6 md:mt-14">
-      <div className="w-full flex flex-row-reverse items-center justify-between gap-4 md:gap-7">
-        <div className="hidden md:flex ring-2 mt-10 ring-pink-200 w-full relative rounded-sm overflow-hidden h-[250px] md:h-[370px] bg-slate-500">
-          <Image fill src="/chooseus.jpg" alt="about" />
+    <div className="w-full md:w-[94%] lg:w-[85%] mx-auto mt-6 md:mt-14">
+      <div className="w-full flex flex-col md:flex-row-reverse items-center justify-between gap-4 md:gap-7">
+        <h2 className="text-xl md:hidden md:text-3xl font-extrabold text-zinc-800">
+          Why Choose Us
+        </h2>
+        <div className="flex ring-2 mt-1 md:mt-10 ring-pink-200 w-full relative rounded-[2px] overflow-hidden h-[270px] md:h-[370px] bg-slate-500">
+          <Image fill src="/whychooseus.png" alt="whychooseus" />
         </div>
         <div className="w-full flex flex-col items-center gap-2">
-          <h2 className="text-xl md:text-3xl font-extrabold text-zinc-800">
+          <h2 className="hidden md:flex text-xl md:text-3xl font-extrabold text-zinc-800">
             Why Choose Us
           </h2>
           <div className="w-full flex flex-col gap-[20px] mt-4 px-1">

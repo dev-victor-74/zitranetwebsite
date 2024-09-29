@@ -25,7 +25,7 @@ const AboutUnique = ({
     <div className="w-full rounded-[2px] py-8 mt-3 px-1">
       <div
         className={cn(
-          "w-full md:w-[90%] lg:w-[80%] px-[10px] mx-auto flex flex-col justify-between items-center",
+          "w-full md:w-[94%] lg:w-[80%] px-[10px] mx-auto flex flex-col justify-between items-center",
           className
         )}
       >

@@ -26,8 +26,8 @@ const Testimonial = () => {
 
   return (
     <div className="w-full flex items-center justify-center flex-col gap-2 mt-8 md:mt-20">
-      <h3 className="text-center text-lg md:text-3x font-extrabold text-zinc-800 ">
-        Words from our clients
+      <h3 className="text-center text-lg md:text-3x font-extrabold text-zinc-800 capitalize">
+        What our customers say
       </h3>
       <div className="flex items-center justify-center w-[100%] md:w-[60%] lg:w-[40%]  px-2 md:px-0 md:max-w-[50%] lg:max-w-[50%] mx-auto">
         <div className="w-full items-center justify-center shadow-sm">

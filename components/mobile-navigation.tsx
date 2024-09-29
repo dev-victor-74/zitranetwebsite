@@ -58,17 +58,20 @@ const MobileNavigation = () => {
         </div>
         <div className="mt-auto pr-2 pl-0">
           <div className="w-full flex items-center justify-center px-2 mt-2 md:mt-0">
-            <div className="w-full md:w-[90%] lg:w-[80%] flex flex-col md:flex-row items-start md:items-center md:justify-center gap-2">
-              <div className="flex items-center gap-2">
-                <div className="flex items-center justify-center bg-rose-800 p-[6px] rounded-full">
+            <div className="w-full flex flex-col items-center justify-center gap-2">
+              <div className="flex flex-col items-center gap-2">
+                <div className="flex flex-col items-center justify-center bg-rose-800 p-[6px] rounded-full">
                   <MapPin size={14} color="white" />
                 </div>
-                <span className="text-xs font-neutral text-neutral-800">
+                <span className="text-xs font-neutral text-center text-neutral-800">
                   24, Abebi shopping complex, Mosafejo bus stop, Sango Eleyele
                   Road, Ibadan, Nigeria.
                 </span>
               </div>
-              <a href="tel:+2348131612375" className="flex items-center gap-2">
+              <a
+                href="tel:+2348131612375"
+                className="flex flex-col items-center gap-2"
+              >
                 <div className="flex items-center justify-center bg-rose-800 p-[6px] rounded-full">
                   <PhoneCall size={14} color="white" />
                 </div>
@@ -78,7 +81,7 @@ const MobileNavigation = () => {
               </a>
               <a
                 href="mailto: zitranet.inc@gmail.com"
-                className="flex items-center gap-2"
+                className="flex items-center flex-col gap-2"
               >
                 <div className="flex items-center justify-center bg-rose-800 p-[6px] rounded-full">
                   <Mail size={14} color="white" />

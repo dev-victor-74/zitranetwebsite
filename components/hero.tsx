@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="w-full md:w-[95%] mx-auto">
           <div className="flex flex-col items-center md:items-start px-1 w-full md:w-[70%] lg:w-[50%] md:ml-16 rounded-sm gap-3 md:gap-3 ">
             <h1 className="text-xl tracking-wide md:text-3xl lg:text-4xl font-extrabold text-zinc-200 text-center md:text-start">
-              Creating Digital Products In The Shortest Time
+              Creating Digital Products That&apos;s Beyond Innovation
             </h1>
             <p className="text-sm font-medium md:font-semibold text-neutral-300 text-center md:text-start tracking-wide">
               Ready to embark on your digital transformation journey?, lets

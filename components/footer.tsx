@@ -66,8 +66,6 @@ const Footer = () => {
     { label: "About", href: "/about" },
     { label: "Services", href: "/services" },
     { label: "Contact", href: "/contact" },
-    { label: "Terms", href: "/terms" },
-    { label: "Privacy Policy", href: "/privacy" },
   ];
 
   return (
@@ -96,7 +94,7 @@ const Footer = () => {
             </a>
             <a
               href={
-                "https://www.facebook.com/profile.php?id=61562499407000&mibextid=ZbWKwL"
+                "https://www.linkedin.com/in/zitranet-technologies-006828323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               }
               target="_blank"
               className="p-[6px] rounded- bg-[#91073b] rounded-full flex items-center justify-center"
@@ -203,8 +201,28 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full md:w-[85%] h-[2px] bg-pink-200 mx-auto mt-5 flex items-center justify-center">
-        <div className="w-full mx-auto mt-5 flex items-center justify-center">
-          <div className="flex items-center justify-center mt-4">
+        <div className="w-full mt-24 md:mt-[68px] pb-5 gap-2 flex flex-col md:flex-row justify-between">
+          <div className="flex items-center gap-3">
+            <Link
+              href="/"
+              className={cn(
+                "text-[12px] md:text-[15px] transition font-semibold text-neutral-950 hover:text-[#91073b]",
+                pathname === "" && "text-[#91073b]"
+              )}
+            >
+              Privacy Policy
+            </Link>
+            <Link
+              href="/"
+              className={cn(
+                "text-[12px] md:text-[15px] transition font-semibold text-neutral-950 hover:text-[#91073b]",
+                pathname === "" && "text-[#91073b]"
+              )}
+            >
+              Terms of Service
+            </Link>
+          </div>
+          <div className="flex items-center">
             <div className="flex items-center gap-1 md:gap-2">
               <span className="text-[12px] md:text-[15px] font-semibold">
                 Copyright
