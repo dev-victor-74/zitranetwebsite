@@ -12,12 +12,12 @@ const ServicesPage = () => {
     <main className="w-full">
       <div
         style={{
-          backgroundImage: "url(/servicespage.jpg)",
+          backgroundImage: "url(/services.jpeg)",
           backgroundSize: "cover",
         }}
-        className="w-full h-[60vh] md:h-[65vh] px-2 md:px-0 lg:h-[70vh] overflow-hidden bg-slate-300 relative flex flex-col items-center justify-center"
+        className="w-full h-[60vh] md:h-[65vh] px-2 md:px-0 lg:h-[75vh] overflow-hidden bg-slate-300 relative flex flex-col items-center justify-center"
       >
-        <div className="absolute top-0 w-full right-0 bg-black/85 p-[10px] md:p-0 flex items-center justify-center h-full">
+        <div className="absolute top-0 w-full right-0 bg-black/50 p-[10px] md:p-0 flex items-center justify-center h-full">
           <div className="flex flex-col items-center justify-center gap-2 w-full md:w-[65%] lg:w-[55%] ">
             <h2 className="text-xl md:text-3xl tracking-wider font-extrabold text-zinc-200">
               Our Services
@@ -33,8 +33,8 @@ const ServicesPage = () => {
         </div>
       </div>
       <div className="w-[90%] mx-auto flex items-center flex-col gap-2 mt-8">
-        <h2 className="text-xl font-extrabold text-zinc-700">Why choose Us</h2>
-        <h2 className="text-xl md:text-2xl font-extrabold text-zinc-800">
+        <h2 className="text-xl font-extrabold text-zinc-800">Why choose Us</h2>
+        <h2 className="text-xl md:text-2xl font-extrabold text-zinc-800 text-center">
           Explore Our Services Below
         </h2>
       </div>

@@ -71,7 +71,7 @@ const Slider = () => {
             >
               <div className="p-1">
                 <Card className="ring-1 ring-pink-200 rounded-sm">
-                  <CardContent className="flex h-[310px] sm:h-[330px] md:h-[320px] p-2">
+                  <CardContent className="flex h-[300px] sm:h-[280px] md:h-[290px] lg:h-[310px] xl:h-[290px] p-2 px-2">
                     <div className="w-full h-full flex flex-col gap-2">
                       <div className="p-1 rounded-full h-10 md:h-12 md:w-12 w-10 flex items-center justify-center shadow-md">
                         <service.Icon size={30} className="text-[#91073b]" />

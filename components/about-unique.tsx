@@ -46,7 +46,7 @@ const AboutUnique = ({
           <h3 className="text-xl md:text-3xl font-extrabold text-zinc-800 text-center md:text-start ml-1">
             {label}
           </h3>
-          <div className="text-[13px] md:text-[16px] font-medium text-center md:text-justify text-neutral-900 flex flex-col gap-3">
+          <div className="text-[13px] md:text-[15px] font-medium text-center md:text-start text-neutral-900 flex flex-col gap-3">
             {desc1 ? <p className=" text-inherit">{desc1}</p> : ""}
             {desc2 ? <p className="text-inherit">{desc2}</p> : ""}
             {desc3 ? <p className=" text-inherit">{desc3}</p> : ""}

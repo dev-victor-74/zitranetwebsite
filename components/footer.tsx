@@ -201,7 +201,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full md:w-[85%] h-[2px] bg-pink-200 mx-auto mt-5 flex items-center justify-center">
-        <div className="w-full mt-24 md:mt-[68px] pb-5 gap-2 flex flex-col md:flex-row justify-between">
+        <div className="w-full mt-24 md:mt-[68px] pb-5 bg-slate-100 gap-2 flex flex-col md:flex-row justify-between">
           <div className="flex items-center gap-3">
             <Link
               href="/"
@@ -222,7 +222,7 @@ const Footer = () => {
               Terms of Service
             </Link>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center bg-slate-100">
             <div className="flex items-center gap-1 md:gap-2">
               <span className="text-[12px] md:text-[15px] font-semibold">
                 Copyright

@@ -29,7 +29,7 @@ const WhyChooseUs = () => {
         <h2 className="text-xl md:hidden md:text-3xl font-extrabold text-zinc-800">
           Why Choose Us
         </h2>
-        <div className="flex ring-2 mt-1 md:mt-10 ring-pink-200 w-full relative rounded-[2px] overflow-hidden h-[270px] md:h-[370px] bg-slate-500">
+        <div className="flex ring-2 mt-1 md:mt-10 ring-pink-200 w-full sm:w-[90%] sm:mx-auto md:w-[65%] lg:w-[60%] xl:w-[55%] relative rounded-[2px] overflow-hidden h-[330px] md:h-[380px] bg-slate-500">
           <Image fill src="/whychooseus.png" alt="whychooseus" />
         </div>
         <div className="w-full flex flex-col items-center gap-2">

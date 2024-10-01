@@ -43,7 +43,7 @@ const HomeContact = () => {
   return (
     <div className="w-full bg-[#91073b] rounded-[2px] py-3 mt-8">
       <div className="w-full md:w-[90%] lg:w-[80%] px-2 mx-auto flex items-center justify-between gap-4">
-        <div className="w-full bg-slate-400 h-[350px] ring-1 ring-pink-300 rounded-[2px] hidden md:flex relative items-center justify-center">
+        <div className="w-[70%] bg-slate-400 h-[350px] ring-1 ring-pink-300 rounded-[2px] hidden md:flex relative items-center justify-center">
           <Image
             fill
             src="/contactt.jpg"
@@ -51,7 +51,7 @@ const HomeContact = () => {
             className="rounded-sm w-full"
           />
         </div>
-        <div className="w-full flex flex-col justify-center gap-2 mx-auto md:mx-0">
+        <div className="w-full sm:w-[80%] sm:mx-auto flex flex-col justify-center gap-2 mx-auto md:mx-0">
           <h3 className="text-xl md:text-2xl font-bold md:font-extrabold tracking-wide text-center md:text-start text-zinc-200 ml-1">
             Contact Us
           </h3>

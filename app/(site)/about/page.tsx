@@ -12,37 +12,34 @@ const Aboutpage = () => {
     <main className="w-full">
       <div
         style={{
-          backgroundImage: "url(/aboutpagebg.jpg)",
+          backgroundImage: "url(/aboutpage.jpeg)",
           backgroundSize: "cover",
         }}
-        className="w-full h-[75vh] md:h-[70vh] px-3 md:px-0 lg:h-[70vh] bg-no-repeat overflow-hidden bg-slate-300 relative flex flex-col items-center justify-center"
+        className="w-full h-[75vh] md:h-[70vh] px-3 md:px-0 lg:h-[75vh] bg-no-repeat overflow-hidden bg-slate-300 relative flex flex-col items-center justify-center"
       >
-        <div className="absolute top-0 w-full right-0 bg-black/80 p-6 md:p-0 flex items-center justify-center h-full">
+        <div className="absolute top-0 w-full right-0 bg-black/60 p-6 md:p-0 flex items-center justify-center h-full">
           <div className="flex flex-col items-center justify-center gap-2 w-full md:w-[65%] lg:w-[55%] ">
             <h2 className="text-xl md:text-3xl tracking-wider font-extrabold text-zinc-200">
               About Us
             </h2>
-            <p className="text-[14px] md:text-[15px] font-medium text-zinc-300/90 text-center">
-              At Zitranet, we pride ourselves on using the latest advancements
-              in artificial intelligence, machine learning, and web
-              technologies. Our chatbots are equipped with natural language
-              processing capabilities, enabling them to understand and respond
-              to customer queries with human-like precision. Our web development
-              practices adhere to the highest standards, ensuring your online
-              presence is robust and secure. Additionally, our Salesforce
-              administration services leverage the full potential of the
-              platform, providing you with tools to manage customer
-              relationships effectively.
-            </p>
           </div>
         </div>
       </div>
 
       <AboutUnique
-        image="/unq.jpg"
+        image="/weareunique.png"
+        label="Welcome to Zitranet"
+        className="flex gap-8 flex-col-reverse md:flex-row"
+        imageClass=" h-[280px] sm:h-[350px] md:h-[380px] w-full md:w-[55%] lg:w-[55%] ring-2 ring-pink-200"
+        desc1=" At Zitranet, we specialize in revolutionizing various industries through innovative technology solutions. "
+        desc2="Our mission is to enhance customer experiences, streamline operations, and drive business growth by providing cutting-edge chatbot technology, expert consultation, reliable maintenance, web development, and Salesforce administration services tailored specifically to your business needs.
+"
+      />
+      <AboutUnique
+        image="/ourstory.png"
         label="Our Story"
         className="flex gap-8 flex-col-reverse md:flex-row-reverse"
-        imageClass=" h-[280px] sm:h-[330px] md:h-[380px] w-full md:w-[55%] lg:w-[60%] ring-2 ring-pink-200"
+        imageClass=" h-[280px] sm:h-[350px] md:h-[380px] w-full md:w-[55%] lg:w-[55%] ring-2 ring-pink-200"
         desc1="Founded with a vision to transform how businesses interact with their customers, Zitranet has
                 quickly become a leader in AI-driven solutions."
         desc2=" Our journey began with a simple yet powerful
@@ -72,9 +69,9 @@ const Aboutpage = () => {
         </div>
       </div>
       <AboutUnique
-        image="/weareunique.png"
+        image="/unique.png"
         label="We Are Unique"
-        imageClass="h-[280px] sm:h-[330px] md:h-[400px] w-full md:w-[55%] lg:w-[48%] ring-2 ring-pink-200"
+        imageClass="h-[280px] sm:h-[350px] md:h-[350px] w-full md:w-[55%] lg:w-[55%] ring-2 ring-pink-200"
         className="flex gap-8 flex-col-reverse md:flex-row"
         desc1="In a rapidly evolving digital landscape, staying stagnant is not an option. We are committed to
               continuous improvement, constantly updating our technology and refining our processes to
@@ -89,11 +86,11 @@ const Aboutpage = () => {
              not only meet but exceed your expectations."
       />
       <AboutUnique
-        image="/theteam.png"
+        image="/theteam1.png"
         label="Meet The Team"
         className="flex gap-8 flex-col-reverse md:flex-row-reverse"
         desc1="At Zitranet, our team is the heart and soul of our company. Comprised of dedicated professionals with diverse expertise and a shared passion for technology, we are committed to delivering exceptional service and innovative solutions to our clients"
-        imageClass="h-[280px] md:h-[400px] w-full sm:h-[330px] md:w-[60%] ring-2 ring-pink-200"
+        imageClass="h-[280px] md:h-[350px] w-full sm:h-[350px] md:w-[60%] ring-2 ring-pink-200"
       />
       <FooterReminder />
     </main>
