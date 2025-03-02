@@ -22,14 +22,16 @@ const Slider = () => {
             existing processes, our experts provide insights and guidance to ensure your technology
             investments yield maximum returns.`,
       Icon: GoDiscussionClosed,
+      href: "/"
     },
 
     {
-      label: "AI Chatbot Technology",
-      desc: `Enhance Customer Engagement with AI-Driven Chatbots,
+      label: "Zitrabot Technology",
+      desc: `Enhance Customer Engagement with Zitrabot AI-Driven chatbots,
             Our AI-powered chatbots are designed to revolutionize the way you interact with your
             customers. Our chatbot is built to handle a variety of tasks.`,
       Icon: Bot,
+      href:"https://www.zitrabot.com"
     },
 
     {
@@ -39,6 +41,7 @@ const Slider = () => {
             closely with you to build websites that are not only visually appealing but also optimized for
             performance and user experience.`,
       Icon: Code2Icon,
+      href:"/"
     },
     {
       label: "SalesForce",
@@ -48,6 +51,7 @@ const Slider = () => {
             on growing your business.
             `,
       Icon: SiSalesforce,
+      href:"/"
     },
     {
       label: "Maintenance of Chatbots",
@@ -57,6 +61,7 @@ const Slider = () => {
             remains a valuable asset to your business.
             `,
       Icon: ServerCogIcon,
+      href:"/"
     },
   ];
 
@@ -72,7 +77,7 @@ const Slider = () => {
               <div className="p-1">
                 <Card className="ring-1 ring-pink-200 rounded-sm">
                   <CardContent className="flex h-[300px] sm:h-[280px] md:h-[290px] lg:h-[310px] xl:h-[290px] p-2 px-2">
-                    <div className="w-full h-full flex flex-col gap-2">
+                    <a href={service.href} target={service.href==="https://www.zitrabot.com"? "_blank":""} className="w-full h-full flex flex-col gap-2">
                       <div className="p-1 rounded-full h-10 md:h-12 md:w-12 w-10 flex items-center justify-center shadow-md">
                         <service.Icon size={30} className="text-[#91073b]" />
                       </div>
@@ -82,7 +87,7 @@ const Slider = () => {
                       <div className="text-[13px] font-normal md:font-medium">
                         {service.desc}
                       </div>
-                    </div>
+                    </a>
                   </CardContent>
                 </Card>
               </div>

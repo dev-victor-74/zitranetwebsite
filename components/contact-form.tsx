@@ -99,7 +99,7 @@ const ContactForm = () => {
               </div>
               <div className="flex flex-col w-full gap-1">
                 <label className="text-sm font-semibold text-neutral-800">
-                  Subject
+                  Message
                 </label>
                 <textarea
                   placeholder="Your message"

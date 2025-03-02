@@ -21,13 +21,13 @@ const Hero = () => {
               Ready to embark on your digital transformation journey?, lets
               create something extraordinary together
             </p>
-            <Link
-              href={"/contact"}
+            <a
+              href="https://www.zitrabot.com"
               className="text-sm font-semibold bg-[#91073b] md:ml-1 hover:scale-[1.01] transition px-4 py-[14px] sm:w-1/3 rounded-sm w-1/2 md:w-1/3
               lg:w-[27%] shadow-sm hover:bg-pink-700 text-center text-zinc-200 md:mt-2"
             >
-              Contact Us
-            </Link>
+              Get Started
+            </a>
           </div>
         </div>
       </div>
