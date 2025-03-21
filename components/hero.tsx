@@ -1,6 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import { Button } from "./ui/button";
+import { Zap } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -21,13 +23,33 @@ const Hero = () => {
               Ready to embark on your digital transformation journey?, lets
               create something extraordinary together
             </p>
-            <a
-              href="https://www.zitrabot.com"
-              className="text-sm font-semibold bg-[#91073b] md:ml-1 hover:scale-[1.01] transition px-4 py-[14px] sm:w-1/3 rounded-sm w-1/2 md:w-1/3
-              lg:w-[27%] shadow-sm hover:bg-pink-700 text-center text-zinc-200 md:mt-2"
-            >
-              Get Started
-            </a>
+            <div className="flex flex-col md:flex-row items-center gap-4 gap-y-5 w-full mt-8 md:mt-2">
+              <Button asChild variant={"ghost"} className=" py-2 h-12">
+                <Link
+                  href="/contact"
+                  className="text-sm font-semibold bg-[#91073b] md:ml-1 hover:scale-[1.01] transition sm:w-1/3 rounded-sm w-1/2 md:w-1/3
+                lg:w-[27%] shadow-sm hover:bg-pink-700 text-center text-zinc-200 hover:text-zinc-300 md:mt-2"
+                >
+                  Contact Us
+                </Link>
+              </Button>
+
+              <Button
+                variant={"ghost"}
+                asChild
+                className=" bg-slate-100 text-zinc-800 py-2 h-12"
+              >
+                <a
+                  href="https://www.zitrabot.com"
+                  target="_blank"
+                  className="text-sm font-semibold ring-1 ring-[#91073b] md:ml-1 hover:scale-[1.01] transition sm:w-1/3 rounded-sm w-1/2 md:w-1/3
+              lg:w-[27%] shadow-sm text-center text-zinc-200 md:mt-2 flex items-center gap-1"
+                >
+                  <Zap size={14} className=" animate-bounce text-[#91073b]" />{" "}
+                  Try Zitrabot Now!
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
       </div>
