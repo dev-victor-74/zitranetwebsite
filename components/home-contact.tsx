@@ -41,8 +41,8 @@ const HomeContact = () => {
     }
   };
   return (
-    <div className="w-full bg-[#91073b] rounded-[2px] py-3 mt-8">
-      <div className="w-full md:w-[90%] lg:w-[82%] px-2 mx-auto flex items-center justify-between gap-8">
+    <div className="w-full bg-[#91073b] rounded-[2px] py-3 mt-8  px-3">
+      <div className="w-full md:w-[90%] lg:w-[86%] px-2 mx-auto flex items-center justify-between gap-7">
         <div className="w-[40%] bg-slate-400 h-[350px] ring-1 ring-pink-300 rounded-[2px] hidden md:flex relative items-center justify-center">
           <Image
             fill

@@ -38,7 +38,7 @@ const ServicesPage = () => {
           Explore Our Services Below
         </h2>
       </div>
-      <section className="mx-auto flex flex-col-reverse md:flex-row items-center w-full md:w-[90%] lg:w-[80%] px-[14px] md:px-1 justify-between gap-4 md:gap-8 mt-5 md:mt-10">
+      <section className="mx-auto flex flex-col-reverse md:flex-row items-center w-full md:w-[94%] lg:w-[84%] px-[14px] md:px-1 justify-between gap-4 md:gap-8 mt-5 md:mt-10">
         <div className=" flex flex-col gap-2 md:w-[70%] lg:w-[80%]">
           <div className=" flex flex-col gap-2">
             <h1 className=" text-xl font-bold md:font-extrabold text-zinc-800">
@@ -79,7 +79,7 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      <section className="mx-auto flex flex-col-reverse md:flex-row-reverse items-center w-full md:w-[90%] lg:w-[80%] px-[14px] md:px-1 justify-between gap-4 md:gap-8 mt-7 md:mt-14">
+      <section className="mx-auto flex flex-col-reverse md:flex-row-reverse items-center w-full md:w-[94%] lg:w-[84%] px-[14px] md:px-1 justify-between gap-4 md:gap-8 mt-7 md:mt-14">
         <div className=" flex flex-col gap-2 md:w-[70%] lg:w-[80%]">
           <div className=" flex flex-col gap-2">
             <h1 className=" text-xl font-bold md:font-extrabold text-zinc-800">
@@ -123,7 +123,7 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      <section className="mx-auto flex flex-col-reverse md:flex-row items-center w-full md:w-[90%] lg:w-[80%] px-[14px] md:px-1 justify-between gap-4 md:gap-8 mt-7 md:mt-14">
+      <section className="mx-auto flex flex-col-reverse md:flex-row items-center w-full md:w-[94%] lg:w-[84%] px-[14px] md:px-1 justify-between gap-4 md:gap-8 mt-7 md:mt-14">
         <div className=" flex flex-col gap-2 w-full md:w-[70%] lg:w-[80%]">
           <div className=" flex flex-col gap-2">
             <h1 className=" text-xl font-bold md:font-extrabold text-zinc-800">
@@ -165,7 +165,7 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      <section className="mx-auto flex flex-col-reverse md:flex-row-reverse items-center w-full md:w-[90%] lg:w-[80%] px-[14px] md:px-1 justify-between gap-4 md:gap-8 mt-7 md:mt-14">
+      <section className="mx-auto flex flex-col-reverse md:flex-row-reverse items-center w-full md:w-[94%] lg:w-[84%] px-[14px] md:px-1 justify-between gap-4 md:gap-8 mt-7 md:mt-14">
         <div className=" flex flex-col gap-2 w-full md:w-[70%] lg:w-[80%]">
           <div className=" flex flex-col gap-2">
             <h1 className=" text-xl font-bold md:font-extrabold text-zinc-800">
@@ -202,7 +202,7 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      <section className="mx-auto flex flex-col-reverse md:flex-row items-center w-full md:w-[90%] lg:w-[80%] px-[14px] md:px-1 justify-between gap-4 md:gap-8 mt-7 md:mt-14">
+      <section className="mx-auto flex flex-col-reverse md:flex-row items-center w-full md:w-[94%] lg:w-[84%] px-[14px] md:px-1 justify-between gap-4 md:gap-8 mt-7 md:mt-14">
         <div className=" flex flex-col gap-2 w-full md:w-[70%] lg:w-[80%]">
           <div className=" flex flex-col gap-2">
             <h1 className=" text-xl font-bold md:font-extrabold text-zinc-800">

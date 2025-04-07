@@ -63,18 +63,74 @@ const Slider = () => {
       href: "/",
     },
   ];
-
+  // lg:grid grid-cols-3
   return (
-    <div className="w-[98%]  md:w-[95%] lg:w-[90%] md:max-w-[95%] lg:max-w-[85%] mx-auto">
-      <Carousel className="w-[100%] mx-auto">
+    <div className="w-[98%] md:w-[95%] lg:w-[85%] mx-auto mt-4">
+      <div className="hidden lg:grid grid-cols-3 gap-4">
+        <div className="col-span-3 grid grid-cols-3 gap-4 justify-items-center">
+          {services.slice(0, 3).map((service) => (
+            <Card
+              key={service.label}
+              className="ring-1 ring-pink-200 rounded-sm p-[5px] w-full"
+            >
+              <CardContent className="flex h-[300px] sm:h-[280px] md:h-[290px] lg:h-[310px] xl:h-[290px] p-2 px-2">
+                <a
+                  href={service.href}
+                  target={
+                    service.href === "https://www.zitrabot.com" ? "_blank" : ""
+                  }
+                  className="w-full h-full flex flex-col gap-2"
+                >
+                  <div className="p-1 rounded-full h-10 md:h-12 md:w-12 w-10 flex items-center justify-center shadow-md">
+                    <service.Icon size={30} className="text-[#91073b]" />
+                  </div>
+                  <h2 className="text-sm font-extrabold text-neutral-800 tracking-wide">
+                    {service.label}
+                  </h2>
+                  <div className="text-[13px] text-justify font-normal md:font-medium">
+                    {service.desc}
+                  </div>
+                </a>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+        <div className="col-span-3 flex justify-center gap-4">
+          {services.slice(3).map((service) => (
+            <Card
+              key={service.label}
+              className="ring-1 ring-pink-200 rounded-sm p-[5px] w-[33%]"
+            >
+              <CardContent className="flex h-[300px] sm:h-[280px] md:h-[290px] lg:h-[310px] xl:h-[290px] p-2 px-2">
+                <a
+                  href={service.href}
+                  target={
+                    service.href === "https://www.zitrabot.com" ? "_blank" : ""
+                  }
+                  className="w-full h-full flex flex-col gap-2"
+                >
+                  <div className="p-1 rounded-full h-10 md:h-12 md:w-12 w-10 flex items-center justify-center shadow-md">
+                    <service.Icon size={30} className="text-[#91073b]" />
+                  </div>
+                  <h2 className="text-sm font-extrabold text-neutral-800 tracking-wide">
+                    {service.label}
+                  </h2>
+                  <div className="text-[13px] text-justify font-normal md:font-medium">
+                    {service.desc}
+                  </div>
+                </a>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </div>
+
+      <Carousel className="w-[100%] mx-auto lg:hidden">
         <CarouselContent className="-ml-1">
           {services.map((service, index) => (
-            <CarouselItem
-              key={index}
-              className="pl-1 md:basis-1/2 lg:basis-1/3"
-            >
+            <CarouselItem key={index} className="pl-1 md:basis-1/2">
               <div className="p-1">
-                <Card className="ring-1 ring-pink-200 rounded-sm">
+                <Card className="ring-1 ring-pink-200 rounded-sm p-2">
                   <CardContent className="flex h-[300px] sm:h-[280px] md:h-[290px] lg:h-[310px] xl:h-[290px] p-2 px-2">
                     <a
                       href={service.href}
@@ -91,7 +147,7 @@ const Slider = () => {
                       <h2 className="text-sm font-extrabold text-neutral-800 tracking-wide">
                         {service.label}
                       </h2>
-                      <div className="text-[13px] font-normal md:font-medium">
+                      <div className="text-[13px] text-justify font-normal md:font-medium">
                         {service.desc}
                       </div>
                     </a>

@@ -1,6 +1,6 @@
 import Slider from "@/components/carousel";
+import FooterReminder from "@/components/footer-reminder";
 import Hero from "@/components/hero";
-import HomeContact from "@/components/home-contact";
 import KnowUs from "@/components/know-us";
 import OurServices from "@/components/our-services";
 import Testimonial from "@/components/testimonial";
@@ -10,13 +10,12 @@ export default function Home() {
   return (
     <main className="mx-auto w-full flex flex-col gap-2">
       <Hero />
-      <div className="w-full md:w-[95%] mx-auto mt-4 px-3 md:px-0 flex flex-col gap-4">
+      <div className="w-full md:w-[98%] mx-auto mt-4 px-3 md:px-0 flex flex-col gap-4">
         <OurServices />
         <Slider />
         <KnowUs />
         <WhyChooseUs />
       </div>
-      <HomeContact />
       {/* <div className="w-full flex flex-col mt-7">
                 <div className="flex flex-col gap-1">
                      <h3 className="text-center text-lg font-bold md:font-extrabold text-zinc-800">Our Blog</h3>
@@ -30,7 +29,9 @@ export default function Home() {
                       }
                   </div>
             </div> */}
+
       <Testimonial />
+      <FooterReminder />
     </main>
   );
 }

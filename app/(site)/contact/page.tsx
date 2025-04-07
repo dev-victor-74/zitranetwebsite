@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 import ContactForm from "@/components/contact-form";
 import ContactInfo from "@/components/contact-info";
-import ContactSocial from "@/components/contact-social";
+import Faq from "@/components/faq";
 
 export const metadata: Metadata = {
   title: "Contact us - zitranet",
@@ -47,9 +47,9 @@ const ContactPage = () => {
           </div>
           <ContactInfo />
           <ContactForm />
-          <ContactSocial />
         </div>
       </div>
+      <Faq />
     </main>
   );
 };

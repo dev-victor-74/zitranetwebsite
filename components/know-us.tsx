@@ -6,8 +6,8 @@ import Image from "next/image";
 const KnowUs = () => {
   return (
     <div className="w-full md:w-[94%] lg:w-[85%] mx-auto mt-6 md:mt-16">
-      <div className="w-full flex flex-col-reverse md:flex-row items-center justify-between gap-5">
-        <div className="flex w-full md:w-[65%] sm:w-[90%] sm:mx-auto lg:w-[60%] xl:w-[55%] ring-2 ring-pink-200 relative rounded-[2px] overflow-hidden h-[330px] md:h-[380px] bg-slate-500">
+      <div className="w-full flex flex-col-reverse md:flex-row items-center justify-between gap-5 gap-x-16">
+        <div className="flex w-full md:w-[65%] sm:w-[90%] sm:mx-auto lg:w-[55%] xl:w-[50%] ring-1 ring-pink-200 relative rounded-[2px] overflow-hidden h-[330px] md:h-[380px] bg-slate-500">
           <Image fill src="/teams2.png" alt="about" />
         </div>
         <div className="w-full flex flex-col items-center md:items-start gap-2 px-1">

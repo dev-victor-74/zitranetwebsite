@@ -13,6 +13,7 @@ import { Linkedin, Loader2, Mail, MapPin, PhoneCall } from "lucide-react";
 import { GoDotFill } from "react-icons/go";
 import { MdCopyright } from "react-icons/md";
 import { MdFacebook } from "react-icons/md";
+import { subscribeToNewsLetter } from "@/lib/contact-request";
 
 const Footer = () => {
   const pathname = usePathname();
@@ -26,37 +27,22 @@ const Footer = () => {
     setLoading(true);
 
     const formData = new FormData(event.target);
-    formData.append("access_key", "234f0c8c-3ab7-480d-a08a-6135505790fe");
-    formData.append("subject", "NewsLetter");
-    formData.append(
-      "NewsLetter Alert",
-      `
-        I hope this message finds you well. I recently came across your website and am impressed by the valuable content you provide. I am interested in staying updated with the latest news, articles, and insights from your team.
- 
-        Could you please add my email address to your newsletter subscription list.
- 
-       Thank you for your time, and I look forward to receiving your updates.
-       `
-    );
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
-    try {
-      const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-        body: json,
+    await subscribeToNewsLetter(formData)
+      .then((data) => {
+        if (data?.success === false) {
+          return toast.error(data.message);
+        }
+        if (data?.success === true) {
+          formRef.current?.reset();
+          return toast.success(data?.message!);
+        }
+      })
+      .catch((error) => {
+        toast.error(error.message);
+      })
+      .finally(() => {
+        setLoading(false);
       });
-      const res = await response.json();
-      toast.success("Email sent successfully!");
-      formRef?.current?.reset();
-    } catch (error) {
-      toast.error("Something went wrong, please try again");
-    } finally {
-      setLoading(false);
-    }
   };
 
   const thisYear = new Date().getFullYear();
@@ -69,7 +55,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="w-full px-[13px] md:px-0 mt-16 py-10 bg-slate-100 flex flex-col gap-4">
+    <footer className="w-full px-[13px] md:px-0 py-20 mt-10 bg-slate-100 flex flex-col gap-4">
       <div className="w-full md:w-[85%] h-full mx-auto flex flex-col md:flex-row justify-between gap-8 md:gap-5">
         <div className="flex flex-col gap-2 flex-1">
           <Link href={"/"} className="flex items-center cursor-pointer">
@@ -105,10 +91,10 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-1 flex-1">
-          <h2 className="text-sm md:text-[17px] font-bold text-zinc-800 ">
+          <h2 className="text-sm md:text-[17px] mt-3 font-bold text-zinc-800 ">
             Quick links
           </h2>
-          <div className="flex flex-col gap-1 mt-1">
+          <div className="flex flex-col gap-5 mt-1">
             {links.map((link) => (
               <Link
                 href={link.href}
@@ -125,10 +111,10 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-[6px] flex-1">
-          <h2 className="text-sm md:text-[17px] font-bold text-zinc-800">
+          <h2 className="text-sm md:text-[17px] mt-3 font-bold text-zinc-800">
             Contact Info
           </h2>
-          <div className="flex flex-col gap-2 mt-1">
+          <div className="flex flex-col gap-5 mt-1">
             <a
               href="tel:+2348131612375"
               className="flex items-center gap-[6px] hover:text-[#91073b]"
@@ -158,10 +144,10 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-1 flex-col">
-          <h2 className="text-sm md:text-[17px] font-bold text-zinc-800">
+          <h2 className="text-sm md:text-[17px] mt-3 font-bold text-zinc-800">
             NewsLetter
           </h2>
-          <div className="flex flex-col gap-3 mt-1">
+          <div className="flex flex-col gap-4 mt-1">
             <p className="text-[13px] md:text-[14px] font-medium text-neutral-900 mt-2">
               Subscribe to keep receiving updates about our product
             </p>
@@ -204,19 +190,17 @@ const Footer = () => {
       <div className="w-full md:w-[85%] mx-auto gap-2 flex flex-col md:flex-row justify-between">
         <div className="flex items-center gap-3">
           <Link
-            href="/"
+            href="/privacy"
             className={cn(
-              "text-[12px] md:text-[13px] transition font-semibold text-neutral-950 hover:text-[#91073b]",
-              pathname === "" && "text-[#91073b]"
+              "text-[12px] md:text-[13px] transition font-semibold text-neutral-950 hover:text-[#91073b]"
             )}
           >
             Privacy Policy
           </Link>
           <Link
-            href="/"
+            href="/terms"
             className={cn(
-              "text-[12px] md:text-[13px] transition font-semibold text-neutral-950 hover:text-[#91073b]",
-              pathname === "" && "text-[#91073b]"
+              "text-[12px] md:text-[13px] transition font-semibold text-neutral-950 hover:text-[#91073b]"
             )}
           >
             Terms of Service

@@ -1,21 +1,14 @@
 import type { Metadata } from "next";
-import {
-  Inter,
-  Montserrat,
-  Roboto,
-  Open_Sans,
-  Poppins,
-  Roboto_Mono,
-  Roboto_Slab,
-} from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import ToastProvider from "@/components/toast-provider";
 
-const inter = Montserrat({
+const inter = Open_Sans({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "900"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
