@@ -55,9 +55,9 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="w-full px-[13px] md:px-0 py-20 mt-10 bg-slate-100 flex flex-col gap-4">
-      <div className="w-full md:w-[85%] h-full mx-auto flex flex-col md:flex-row justify-between gap-8 md:gap-5">
-        <div className="flex flex-col gap-2 flex-1">
+    <footer className="w-full px-[13px] md:px-0 py-5 mt-10 bg-slate-100 flex flex-col gap-4">
+      <div className="w-full md:w-[85%] h-full mx-auto flex flex-col md:flex-row justify-between gap-8 md:gap-x-10">
+        <div className="flex flex-col gap-2 flex-1 mt-1">
           <Link href={"/"} className="flex items-center cursor-pointer">
             <div className="relative w-10 h-8 -ml-2">
               <Image fill src="/zitralogo3.png" alt="zitranet" priority />
@@ -66,7 +66,7 @@ const Footer = () => {
               Zitranet
             </div>
           </Link>
-          <p className="text-[12px] md:text-[14px] font-medium text-neutral-900">
+          <p className="text-[12px] md:text-[14px] text-justify md:text-start mt-2 font-medium text-neutral-900">
             At Zitranet, we specialize in revolutionizing various industries
             through innovative technology solutions.
           </p>
@@ -94,7 +94,7 @@ const Footer = () => {
           <h2 className="text-sm md:text-[17px] mt-3 font-bold text-zinc-800 ">
             Quick links
           </h2>
-          <div className="flex flex-col gap-5 mt-1">
+          <div className="flex flex-col gap-3 mt-4">
             {links.map((link) => (
               <Link
                 href={link.href}
@@ -114,7 +114,7 @@ const Footer = () => {
           <h2 className="text-sm md:text-[17px] mt-3 font-bold text-zinc-800">
             Contact Info
           </h2>
-          <div className="flex flex-col gap-5 mt-1">
+          <div className="flex flex-col gap-3 mt-4">
             <a
               href="tel:+2348131612375"
               className="flex items-center gap-[6px] hover:text-[#91073b]"
@@ -147,7 +147,7 @@ const Footer = () => {
           <h2 className="text-sm md:text-[17px] mt-3 font-bold text-zinc-800">
             NewsLetter
           </h2>
-          <div className="flex flex-col gap-4 mt-1">
+          <div className="flex flex-col gap-3 mt-4">
             <p className="text-[13px] md:text-[14px] font-medium text-neutral-900 mt-2">
               Subscribe to keep receiving updates about our product
             </p>
@@ -188,7 +188,7 @@ const Footer = () => {
       </div>
       <div className="w-full md:w-[85%] h-[2px] bg-pink-200 mx-auto mt-5 flex items-center justify-center" />
       <div className="w-full md:w-[85%] mx-auto gap-2 flex flex-col md:flex-row justify-between">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 mt-3 md:mt-0">
           <Link
             href="/privacy"
             className={cn(
@@ -206,7 +206,7 @@ const Footer = () => {
             Terms of Service
           </Link>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center mt-3 md:mt-0">
           <div className="flex items-center gap-1 md:gap-2">
             <span className="text-[12px] md:text-[13px] font-semibold">
               Copyright

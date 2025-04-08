@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
 
   return (
     <div className="w-full md:w-[94%] lg:w-[85%] mx-auto mt-6 md:mt-14">
-      <div className="w-full flex flex-col md:flex-row-reverse justify-between gap-4 md:gap-7">
+      <div className="w-full flex flex-col md:flex-row-reverse justify-between gap-4 md:gap-x-10">
         <h2 className="text-xl md:hidden md:text-3xl text-center font-extrabold text-zinc-800 ml-2">
           Why Choose Us
         </h2>
@@ -49,7 +49,7 @@ const WhyChooseUs = () => {
                   <h4 className="text-[15px] font-bold text-zinc-900">
                     {why.label}
                   </h4>
-                  <p className="text-[13px] md:text-[16px] font-medium text-neutral-800 text-start">
+                  <p className="text-[13px] md:text-[16px] font-medium text-neutral-800 text-justify">
                     {why.desc}
                   </p>
                 </div>

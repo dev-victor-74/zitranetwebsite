@@ -19,10 +19,10 @@ const Testimonial = () => {
       role: "CEO ABC Company",
     },
     {
-      name: "Daniella Ihechi",
+      name: "Mrs Ifeoma Nwafor",
       desc: "As a growing business, managing customer service efficiently was becoming a challenge. After integrating Zitranet's SaaS platform, our customer response time has improved dramatically. The chatbot handles inquiries 24/7, and our customers can now easily book accommodations or purchase tickets without any hassle. It's like having an extra team member who never sleeps!",
       image: "/testimonial3.jpg",
-      role: "CEO B&C Company",
+      role: "CFO B&D Holdings",
     },
   ];
 
@@ -41,7 +41,7 @@ const Testimonial = () => {
                     <Card className=" shadow-none border-none">
                       <CardContent className="flex items-center justify-center p-2 h-[380px] md:h-[350px] lg:h-[330px] ">
                         <div className="w-full h-full flex flex-col items-center justify-center gap-8">
-                          <div className="w-full text-[12px] md:text-sm font-normal text-center md:font-medium text-neutral-800">
+                          <div className="w-full text-[13.5px] md:text-sm font-normal text-center md:font-medium text-neutral-800">
                             {testimonial.desc}
                           </div>
                           <div className="w-full flex flex-col items-center justify-center gap-1">
@@ -53,7 +53,7 @@ const Testimonial = () => {
                                 className=" rounded-full object-cover"
                               />
                             </div>
-                            <div className=" text-center text-xs md:text-[13px] flex flex-col items-center gap-1 mt-2 font-semibold text-zinc-700">
+                            <div className=" text-center text-[13px] md:text-[14px] flex flex-col items-center gap-1 mt-2 font-semibold text-zinc-700">
                               <p className=" text-inherit text-center">
                                 {testimonial.name}
                               </p>

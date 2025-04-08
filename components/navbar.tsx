@@ -33,7 +33,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="sticky top-0 right-0 z-50 backdrop-blur-sm bg-white/50 shadow-sm w-full md:w-[100%] mx-auto px-3 md:px-0 py-2 h-[60px]">
+    <nav className="sticky top-0 right-0 z-50 backdrop-blur-sm bg-white/50 shadow-sm w-full md:w-[100%] mx-auto px-3 md:px-0 py-2 h-[65px]">
       <div className="w-full md:w-[85%] h-full mx-auto flex items-center justify-between">
         <Link href={"/"} className="flex items-center cursor-pointer">
           <div className="relative -ml-[10px] md:-ml-4 w-8 h-6 md:w-12 md:h-9">
