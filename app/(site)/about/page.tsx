@@ -56,7 +56,7 @@ const Aboutpage = () => {
         className="w-full h-[55vh] md:h-[65vh] px-6 bg-no-repeat md:px-0 lg:h-[65vh] overflow-hidden bg-[#91073b] relative flex flex-col items-center justify-center"
       >
         <div className="absolute top-0 w-full right-0 bg-black/85 flex p-6 md:p-0 items-center justify-center h-full">
-          <div className="flex flex-col items-center justify-center gap-2 md:gap-2 w-full md:w-[65%] lg:w-[55%] ">
+          <div className="flex flex-col items-center justify-center gap-y-5 md:gap-y-7 w-full md:w-[65%] lg:w-[55%] ">
             <h2 className="text-lg md:text-3xl tracking-wider font-bold md:font-extrabold text-zinc-200">
               Our Vision
             </h2>
@@ -70,7 +70,7 @@ const Aboutpage = () => {
             <Button
               variant={"ghost"}
               asChild
-              className=" bg-slate-50 text-zinc-800 py-2 h-10 text-sm font-semibold ring-1 ring-[#91073b] md:ml-1 hover:scale-[1.01] transition rounded-sm 
+              className="mt-7 bg-slate-50 text-zinc-800 py-2 h-10 text-sm font-semibold ring-1 ring-[#91073b] md:ml-1 hover:scale-[1.01] transition rounded-sm 
                text-center  md:mt-2 flex items-center gap-1"
             >
               <a href="https://www.zitrabot.com" target="_blank">

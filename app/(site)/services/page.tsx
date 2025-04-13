@@ -45,10 +45,10 @@ const ServicesPage = () => {
               <h1 className=" text-xl font-bold md:font-extrabold text-zinc-800">
                 Consultation
               </h1>
-              <p className="text-[14px] md:text-[15px] font-bold text-zinc-800">
+              <p className="text-[14px] md:text-[15px] font-bold text-zinc-800 text-justify">
                 Expert Guidance for Technology Integration and Optimization
               </p>
-              <p className=" text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className=" text-[13px] md:text-[15px] text-justify font-medium text-neutral-900">
                 Navigating the complexities of technology integration can be
                 challenging. Our consultation services are designed to help you
                 make informed decisions and maximize the return on your
@@ -59,15 +59,15 @@ const ServicesPage = () => {
               <p className="text-[14px] md:text-[15px] font-bold text-zinc-800">
                 We offer:
               </p>
-              <p className="text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className="text-[13px] md:text-[15px] text-justify font-medium text-neutral-900">
                 Digital Strategy Development: Craft a roadmap for your
                 business&apos;s digital transformation.
               </p>
-              <p className=" text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className=" text-[13px] md:text-[15px] text-justify font-medium text-neutral-900">
                 Technology Integration: Seamlessly integrate new technologies
                 into your existing systems.
               </p>
-              <p className="text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className="text-[13px] md:text-[15px] text-justify font-medium text-neutral-900">
                 Process Optimization: Improve efficiency and effectiveness
                 across your operations. Our experts work closely with you to
                 understand your business goals and challenges, providing
@@ -83,13 +83,13 @@ const ServicesPage = () => {
         <section className="mx-auto flex flex-col-reverse md:flex-row-reverse items-center w-full md:w-[94%] lg:w-[84%] px-[14px] md:px-1 justify-between gap-4 md:gap-8 mt-7 md:mt-14">
           <div className=" flex flex-col gap-2 md:w-[70%] lg:w-[80%]">
             <div className=" flex flex-col gap-y-3 text-justify">
-              <h1 className=" text-xl font-bold md:font-extrabold text-zinc-800">
+              <h1 className=" text-xl font-bold text-justify md:font-extrabold text-zinc-800">
                 Chatbot Technology Solution
               </h1>
-              <p className="text-[14px] md:text-[15px] font-bold text-zinc-800">
+              <p className="text-[14px] md:text-[15px] text-justify font-bold text-zinc-800">
                 Expert Guidance for Technology Integration and Optimization
               </p>
-              <p className=" text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className=" text-[13px] md:text-[15px] font-medium text-neutral-900 text-justify">
                 Navigating the complexities of technology integration can be
                 challenging. Our consultation services are designed to help you
                 make informed decisions and maximize the return on your
@@ -100,15 +100,15 @@ const ServicesPage = () => {
               <p className="text-[14px] md:text-[15px] font-bold text-zinc-800">
                 We offer:
               </p>
-              <p className="text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className="text-[13px] md:text-[15px] text-justify font-medium text-neutral-900">
                 Digital Strategy Development: Craft a roadmap for your
                 business&apos;s digital transformation.
               </p>
-              <p className=" text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className=" text-[13px] md:text-[15px] text-justify font-medium text-neutral-900">
                 Technology Integration: Seamlessly integrate new technologies
                 into your existing systems.
               </p>
-              <p className="text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className="text-[13px] md:text-[15px] text-justify font-medium text-neutral-900">
                 Process Optimization: Improve efficiency and effectiveness
                 across your operations.
               </p>
@@ -137,31 +137,31 @@ const ServicesPage = () => {
               <h1 className=" text-xl font-bold md:font-extrabold text-zinc-800">
                 Maintenance
               </h1>
-              <p className="text-[14px] md:text-[15px] font-bold text-zinc-800">
+              <p className="text-[14px] text-justify md:text-[15px] font-bold text-zinc-800">
                 Ensure Your Chatbot Remains a Valuable Asset
               </p>
-              <p className="text-[14px] md:text-[15px] font-medium text-zinc-800">
+              <p className="text-[14px] text-justify md:text-[15px] font-medium text-zinc-800">
                 Beyond development, ongoing maintenance is crucial to ensure
                 your chatbot continues to meet evolving customer needs.
               </p>
             </div>
             <div className="flex flex-col gap-y-3 text-justify">
-              <p className="text-[14px] md:text-[15px] font-bold text-zinc-800">
+              <p className="text-[14px] text-justify md:text-[15px] font-bold text-zinc-800">
                 Our maintenance services include:
               </p>
-              <p className="text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className="text-[13px] md:text-[15px] text-justify font-medium text-neutral-900">
                 Performance Monitoring: Regularly track and analyze chatbot
                 performance to ensure optimal functionality.
               </p>
-              <p className=" text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className=" text-[13px] md:text-[15px] text-justify font-medium text-neutral-900">
                 Updates and Enhancements: Implement updates and refine
                 functionalities to adapt to changing customer expectations.
               </p>
-              <p className="text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className="text-[13px] md:text-[15px] text-justify font-medium text-neutral-900">
                 Technical Support: Provide prompt assistance and troubleshooting
                 to resolve any issues.
               </p>
-              <p className="text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className="text-[13px] md:text-[15px] text-justify font-medium text-neutral-900">
                 With our comprehensive maintenance services, your chatbot will
                 remain effective and up-to-date, consistently delivering value
                 to your business.
@@ -179,26 +179,26 @@ const ServicesPage = () => {
               <h1 className=" text-xl font-bold md:font-extrabold text-zinc-800">
                 Web Development
               </h1>
-              <p className="text-[14px] md:text-[15px] font-bold text-zinc-800">
+              <p className="text-[14px] md:text-[15px] text-justify font-bold text-zinc-800">
                 Create Custom Websites that Drive Business Success
               </p>
             </div>
-            <div className="flex flex-col gap-2 text-justify">
-              <p className="text-[13px] md:text-[15px] font-medium text-neutral-900">
+            <div className="flex flex-col gap-y-4 text-justify">
+              <p className="text-[13px] md:text-[15px] text-justify font-medium text-neutral-900">
                 We specialize in developing websites that are not only visually
                 appealing but also optimized for performance and user
                 experience. Our web development services include:
               </p>
-              <p className=" text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className=" text-[13px] md:text-[15px] text-justify font-medium text-neutral-900">
                 Responsive Design: Ensure your website looks great and functions
                 smoothly on all devices.
               </p>
-              <p className="text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className="text-[13px] md:text-[15px] text-justify font-medium text-neutral-900">
                 E-Commerce Solutions: Build secure, user-friendly online stores
                 that drive sales. Custom Development: Create tailored websites
                 that align with your brand and business objectives.
               </p>
-              <p className="text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className="text-[13px] md:text-[15px] text-justify font-medium text-neutral-900">
                 Our development team works closely with you to create a website
                 that meets your specific needs, helping you establish a strong
                 online presence.
@@ -213,13 +213,13 @@ const ServicesPage = () => {
         <section className="mx-auto flex flex-col-reverse md:flex-row items-center w-full md:w-[94%] lg:w-[84%] px-[14px] md:px-1 justify-between gap-4 md:gap-8 mt-7 md:mt-14">
           <div className=" flex flex-col gap-2 w-full md:w-[70%] lg:w-[80%]">
             <div className=" flex flex-col gap-y-3 text-justify">
-              <h1 className=" text-xl font-bold md:font-extrabold text-zinc-800">
+              <h1 className=" text-xl text-justify font-bold md:font-extrabold text-zinc-800">
                 Salesforce Administration
               </h1>
-              <p className="text-[14px] md:text-[15px] font-bold text-zinc-800">
+              <p className="text-[14px] text-justify md:text-[15px] font-bold text-zinc-800">
                 Maximize the Potential of Your Salesforce Platform
               </p>
-              <p className="text-[14px] md:text-[15px] font-medium text-zinc-800">
+              <p className="text-[14px] text-justify md:text-[15px] font-medium text-zinc-800">
                 Our Salesforce administration services are designed to help you
                 manage and optimize your Salesforce environment.
               </p>
@@ -228,19 +228,19 @@ const ServicesPage = () => {
               <p className="text-[14px] md:text-[15px] font-bold text-zinc-800">
                 We offer:
               </p>
-              <p className="text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className="text-[13px] text-justify md:text-[15px] font-medium text-neutral-900">
                 Workflow Setup: Design and implement custom workflows to
                 streamline your business processes.
               </p>
-              <p className=" text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className=" text-[13px] text-justify md:text-[15px] font-medium text-neutral-900">
                 Dashboard Customization: Create intuitive dashboards that
                 provide valuable insights and data visualization.
               </p>
-              <p className="text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className="text-[13px] text-justify md:text-[15px] font-medium text-neutral-900">
                 Data Management: Ensure data accuracy and integrity across your
                 Salesforce platform.
               </p>
-              <p className="text-[13px] md:text-[15px] font-medium text-neutral-900">
+              <p className="text-[13px] text-justify md:text-[15px] font-medium text-neutral-900">
                 With our expertise, you can leverage the full potential of
                 Salesforce to enhance customer relationships and drive business
                 growth.
