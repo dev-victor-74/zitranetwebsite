@@ -13,10 +13,10 @@ const ContactPage = () => {
     <main className="mx-auto w-full px-0 md:px-0 mt-0">
       <div
         style={{
-          backgroundImage: "url(/contact.jpg)",
+          backgroundImage: "url(/contactpage.png)",
           backgroundSize: "cover",
         }}
-        className="w-full h-[60vh] md:h-[65vh] px-2 md:px-0 lg:h-[70vh] bg-no-repeat overflow-hidden bg-slate-300 relative flex flex-col items-center justify-center"
+        className="w-full h-[50vh] md:h-[65vh] px-2 md:px-0 lg:h-[75vh] bg-no-repeat overflow-hidden bg-slate-300 relative flex flex-col items-center justify-center"
       >
         <div className="absolute top-0 w-full right-0 bg-black/60 p-[10px] md:p-0 flex items-center justify-center h-full">
           <div className="flex flex-col items-center justify-center gap-2 w-full md:w-[65%] lg:w-[55%] ">

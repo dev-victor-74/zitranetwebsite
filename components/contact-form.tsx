@@ -50,7 +50,12 @@ const ContactForm = () => {
         </p>
         <div className="w-full flex items-center md:gap-4 lg:gap-10 mx-auto px-[10px] md:p-4 rounded-sm">
           <div className="w-full hidden md:flex h-[520px] rounded-[2px] ring-1 ring-pink-200 overflow-hidden bg-slate-200 relative ">
-            <Image fill alt="contact-form" src="/customercare.webp" />
+            <Image
+              fill
+              alt="contact-form"
+              src="/customercare.png"
+              className=" object-cover"
+            />
           </div>
           <div className="w-full">
             <form ref={formRef} onSubmit={handleSubmit} className="w-full">

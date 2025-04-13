@@ -2,6 +2,8 @@ import { Metadata } from "next";
 
 import AboutUnique from "@/components/about-unique";
 import FooterReminder from "@/components/footer-reminder";
+import { Button } from "@/components/ui/button";
+import { Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "About us - zitranet",
@@ -9,7 +11,7 @@ export const metadata: Metadata = {
 
 const Aboutpage = () => {
   return (
-    <main className="w-full">
+    <main className="w-full flex flex-col md:gap-y-12">
       <div
         style={{
           backgroundImage: "url(/aboutpage.jpeg)",
@@ -65,6 +67,17 @@ const Aboutpage = () => {
               human interaction, we aim to create a world where customer service
               is not just efficient, but also personal and enjoyable.
             </p>
+            <Button
+              variant={"ghost"}
+              asChild
+              className=" bg-slate-50 text-zinc-800 py-2 h-10 text-sm font-semibold ring-1 ring-[#91073b] md:ml-1 hover:scale-[1.01] transition rounded-sm 
+               text-center  md:mt-2 flex items-center gap-1"
+            >
+              <a href="https://www.zitrabot.com" target="_blank">
+                <Zap size={14} className=" animate-bounce text-[#961848]" /> Try
+                Zitrabot Now!
+              </a>
+            </Button>
           </div>
         </div>
       </div>

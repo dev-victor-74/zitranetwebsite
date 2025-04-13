@@ -8,9 +8,9 @@ import WhyChooseUs from "@/components/why-choose-us";
 
 export default function Home() {
   return (
-    <main className="mx-auto w-full flex flex-col gap-2">
+    <main className="mx-auto w-full flex flex-col gap-y-4 md:gap-y-8">
       <Hero />
-      <div className="w-full md:w-[98%] mx-auto mt-4 px-3 md:px-0 flex flex-col gap-4">
+      <div className="w-full md:w-[98%] mx-auto mt-4 px-3 md:px-0 flex flex-col gap-y-4 md:gap-y-10">
         <OurServices />
         <Slider />
         <KnowUs />

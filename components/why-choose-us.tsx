@@ -2,6 +2,7 @@
 
 import { CheckCircle2 } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const WhyChooseUs = () => {
   const whyUs = [
@@ -29,8 +30,13 @@ const WhyChooseUs = () => {
         <h2 className="text-xl md:hidden md:text-3xl text-center font-extrabold text-zinc-800 ml-2">
           Why Choose Us
         </h2>
-        <div className="flex ring-2 mt-1 md:mt-10 ring-pink-200 w-full sm:w-[90%] sm:mx-auto md:w-[65%] lg:w-[60%] xl:w-[55%] relative rounded-[2px] overflow-hidden h-[330px] md:h-[380px] bg-slate-500">
-          <Image fill src="/whychooseus.png" alt="whychooseus" />
+        <div className="flex ring-1 mt-1 md:mt-10 ring-pink-200 w-full sm:w-[90%] sm:mx-auto md:w-[65%] lg:w-[60%] xl:w-[55%] relative rounded-[2px] overflow-hidden h-[330px] md:h-[380px] bg-slate-500">
+          <Image
+            fill
+            src="/whychooseus.png"
+            alt="whychooseus"
+            className=" rounded-[2px]"
+          />
         </div>
         <div className="w-full flex flex-col gap-2">
           <h2 className="hidden md:flex text-xl md:text-3xl font-extrabold text-zinc-800 ml-2">
@@ -55,6 +61,12 @@ const WhyChooseUs = () => {
                 </div>
               </div>
             ))}
+            <Link
+              href="/about"
+              className="text-sm mx-auto md:mx-0 mt-4 text-center hover:opacity-75 font-semibold text-zinc-200 px-4 py-3 w-[80%] sm:w-[60%] md:w-1/2 lg:w-1/3 rounded-sm bg-[#91073b]"
+            >
+              Read More
+            </Link>
           </div>
         </div>
       </div>

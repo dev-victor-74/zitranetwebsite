@@ -8,7 +8,7 @@ const ContactInfo = () => {
       <div className="w-full md:w-[95%] lg:w-[70%] mx-auto pb-2 flex flex-col md:flex-row items-center justify-center gap-4">
         <a
           href="tel:+2348131612375"
-          className="p-2 w-full h-[140px] hover:scale-[1.02] transition-all duration-500 ring-[.5px] ring-pink-600 rounded-sm flex flex-col items-center gap-y-1"
+          className="p-2 w-full h-[140px] hover:scale-[1.02] transition-all duration-500 ring-[.5px] ring-pink-600 rounded-sm flex flex-col items-center"
         >
           <div className="w-8 h-8 flex items-center justify-center rounded-sm bg-rose-800">
             <PhoneCall size={16} color="white" />
@@ -21,7 +21,7 @@ const ContactInfo = () => {
           </div>
         </a>
 
-        <div className="p-2 w-full h-[140px] hover:scale-[1.02] transition-all duration-500 ring-[.5px] ring-pink-600 rounded-sm flex flex-col items-center gap-y-1">
+        <div className="p-2 w-full h-[140px] hover:scale-[1.02] transition-all duration-500 ring-[.5px] ring-pink-600 rounded-sm flex flex-col items-center">
           <div className="w-8 h-8 flex items-center justify-center rounded-sm bg-rose-800">
             <MapPin size={16} color="white" />
           </div>
@@ -36,7 +36,7 @@ const ContactInfo = () => {
 
         <a
           href="mailto:zitranet.inc@gmail.com"
-          className="p-2 w-full h-[140px] hover:scale-[1.02] transition-all duration-500 ring-[.5px] ring-pink-600 rounded-sm flex flex-col items-center gap-y-1"
+          className="p-2 w-full h-[140px] hover:scale-[1.02] transition-all duration-500 ring-[.5px] ring-pink-600 rounded-sm flex flex-col items-center"
         >
           <div className="w-8 h-8 flex items-center justify-center rounded-sm bg-rose-800">
             <Mail size={16} color="white" />

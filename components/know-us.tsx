@@ -11,7 +11,12 @@ const KnowUs = () => {
           About Us
         </h2>
         <div className="flex w-full md:w-[65%] sm:w-[90%] sm:mx-auto lg:w-[55%] xl:w-[50%] ring-1 ring-pink-200 relative rounded-[2px] overflow-hidden h-[330px] md:h-[380px] bg-slate-500">
-          <Image fill src="/teams2.png" alt="about" />
+          <Image
+            fill
+            src="/teams2.png"
+            alt="about"
+            className=" rounded-[2px]"
+          />
         </div>
         <div className="w-full flex flex-col items-center md:items-start gap-2 px-1">
           <h2 className="hidden md:flex text-xl md:text-3xl font-extrabold text-zinc-800">
@@ -28,7 +33,7 @@ const KnowUs = () => {
           </p>
           <Link
             href="/about"
-            className="text-sm mt-4 text-center hover:opacity-75 font-semibold text-zinc-200 px-4 py-3 w-[80%] md:w-1/2 lg:w-1/3 rounded-sm bg-[#91073b]"
+            className="text-sm mt-4 text-center hover:opacity-75 font-semibold text-zinc-200 px-4 py-3 w-[80%] sm:w-[60%] md:w-1/2 lg:w-1/3 rounded-sm bg-[#91073b]"
           >
             Read More
           </Link>
